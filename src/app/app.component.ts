@@ -5,7 +5,7 @@ import { JiraTestComponent } from './components/jira-test/jira-test.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, JiraTestComponent],
+  imports: [JiraTestComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
