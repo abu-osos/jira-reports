@@ -1,27 +1,132 @@
-import { Component, OnInit, inject } from '@angular/core';
+import { Component, OnInit, computed, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { JiraService } from '../../services/jira.service';
-import { Observable } from 'rxjs';
-import { catchError } from 'rxjs/operators';
-import { of } from 'rxjs';
+import { map } from 'rxjs/operators';
+import { SprintIssue, WorklogItem } from '../../models/jira.model';
 
 @Component({
   selector: 'app-jira-test',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './jira-test.component.html',
-  styleUrls: ['./jira-test.component.scss']
+  styleUrls: ['./jira-test.component.scss'],
 })
 export class JiraTestComponent implements OnInit {
   private jiraService = inject(JiraService);
-  jiraResponse$!: Observable<any>;
+
+  sprintStartDate = computed(() => new Date("2025-05-26T00:00:00.000+0400"));
+
+  computedSprintStartDate = computed(() => {
+    const originalSprintStartDate = this.sprintStartDate();
+    // Clone the date to avoid mutating the original from the signal
+    const dateToModify = new Date(originalSprintStartDate.getTime());
+    const today = new Date();
+    dateToModify.setFullYear(today.getFullYear());
+    return dateToModify;
+  });
+
+  daysWithoutWeekends = computed(() => {
+    const originalSprintStartDate = this.computedSprintStartDate();
+    // Clone the date to avoid mutating the original from the signal
+    const startDateForLoop = new Date(originalSprintStartDate.getTime());
+    const today = new Date();
+    let days = 0;
+    for (
+      let date = startDateForLoop; // Use the clone for the loop
+      date <= today;
+      date.setDate(date.getDate() + 1)
+    ) {
+      if (date.getDay() !== 0 && date.getDay() !== 6) {
+        days++;
+      }
+    }
+    return days;
+  });
+
+  workingDaysHours = computed(() => {
+    const leaveDays = 0;
+    const daysWithoutWeekends = this.daysWithoutWeekends();
+    return daysWithoutWeekends * 8 - leaveDays * 8;
+  });
+
+  issues = signal<SprintIssue[]>([]);
+
+  workLogs = computed(() => {
+    const workLogs = [];
+    for (const issue of this.issues()) {
+      for (const workLog of issue.fields.worklog.worklogs) {
+        console.log(workLog.started, this.computedSprintStartDate(), new Date(workLog.started) <= this.computedSprintStartDate());
+        if (new Date(workLog.started) >= this.computedSprintStartDate()) {
+          workLogs.push(workLog);
+        }
+      }
+    }
+    return workLogs;
+  });
+
+  distinctUsers = computed(() => {
+    return this.workLogs()
+      .map((workLog) => workLog.author.displayName)
+      .filter((value, index, self) => self.indexOf(value) === index);
+  });
+  workLogsByUser = computed(() => {
+    return this.workLogs().reduce(
+      (acc: { [key: string]: WorklogItem[] }, workLog) => {
+        acc[workLog.author.displayName] = [
+          ...(acc[workLog.author.displayName] || []),
+          workLog,
+        ];
+        return acc;
+      },
+      {}
+    );
+  });
 
   ngOnInit(): void {
-    this.jiraResponse$ = this.jiraService.getMyself().pipe(
-      catchError(error => {
-        console.error('Error fetching Jira data:', error);
-        return of({ error: true, message: error.message, status: error.status, errorResponse: error.error });
-      })
+    this.jiraService
+      .getSprintIssues()
+      .pipe(map((response) => response.issues))
+      .subscribe((issues) => {
+        this.issues.set(issues);
+      });
+  }
+
+  getWorkLogsByUser(user: string) {
+    const workLogs = this.workLogsByUser()[user];
+    const seconds = workLogs.reduce(
+      (acc, workLog) => acc + workLog.timeSpentSeconds,
+      0
     );
+    const hours = Math.floor(seconds / 3600);
+    const minutes = Math.floor((seconds % 3600) / 60);
+    return `${hours}h ${minutes}m`;
+  }
+
+  getIssuesByUser(user: string) {
+    const issueIds = this.workLogsByUser()
+      [user].map((workLog) => workLog.issueId)
+      .filter((value, index, self) => self.indexOf(value) === index);
+    return issueIds;
+  }
+
+  getIssueNameById(issueId: string) {
+    return this.issues().find((issue) => issue.id === issueId)?.fields.summary;
+  }
+
+  getIssueKeyById(issueId: string) {
+    return this.issues().find((issue) => issue.id === issueId)?.key;
+  }
+
+  getIssuesWorkLogsByUser(user: string, issueId: string) {
+    const workLogs = this.workLogsByUser()[user].filter(
+      (workLog) => workLog.issueId === issueId
+    );
+    const seconds = workLogs.reduce(
+      (acc, workLog) => acc + workLog.timeSpentSeconds,
+      0
+    );
+    const hours = Math.floor(seconds / 3600);
+    const minutes = Math.floor((seconds % 3600) / 60);
+    return `${hours}h ${minutes}m`;
   }
 }

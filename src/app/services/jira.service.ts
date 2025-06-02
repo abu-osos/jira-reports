@@ -1,16 +1,15 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { SprintIssueResponse } from '../models/jira.model';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class JiraService {
-  private proxyApiBaseUrl = '/api/jira';
+  constructor(private http: HttpClient) {}
 
-  constructor(private http: HttpClient) { }
-
-  getMyself(): Observable<any> {
-    return this.http.get(`${this.proxyApiBaseUrl}/myself`);
+  getSprintIssues(): Observable<SprintIssueResponse> {
+    return this.http.get<SprintIssueResponse>('data/sprint-issues.json');
   }
 }

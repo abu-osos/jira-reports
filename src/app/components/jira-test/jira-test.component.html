@@ -1,20 +1,8 @@
-<h2>Jira API Test - Get Myself</h2>
+<h2>Jira Sprint Issues Test - {{ workingDaysHours() }}h</h2>
 
-<div *ngIf="jiraResponse$ | async as response; else loadingOrError">
-  <div *ngIf="!response.error; else showError">
-    <h3>Successfully fetched data:</h3>
-    <pre>{{ response | json }}</pre>
-  </div>
-  <ng-template #showError>
-    <h3>Error fetching data:</h3>
-    <p>Status: {{ response.status }}</p>
-    <p>Message: {{ response.message }}</p>
-    <pre *ngIf="response.errorResponse">{{ response.errorResponse | json }}</pre>
-  </ng-template>
-</div>
-
-<ng-template #loadingOrError>
-  <div *ngIf="!(jiraResponse$ | async)?.error">
-    <p>Loading data...</p>
-  </div>
-</ng-template>
+@for (user of distinctUsers(); track $index) {
+  <h3>{{ $index + 1 }}. {{ user }} - {{ getWorkLogsByUser(user) }}</h3>
+  @for (issue of getIssuesByUser(user); track $index) {
+    <p>{{ getIssueKeyById(issue) }} - {{ getIssueNameById(issue) }} - {{ getIssuesWorkLogsByUser(user, issue) }}</p>
+  }
+}
