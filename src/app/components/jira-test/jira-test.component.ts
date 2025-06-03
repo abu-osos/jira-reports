@@ -14,7 +14,7 @@ import { SprintIssue, WorklogItem } from '../../models/jira.model';
 export class JiraTestComponent implements OnInit {
   private jiraService = inject(JiraService);
 
-  sprintStartDate = computed(() => new Date("2025-05-26T00:00:00.000+0400"));
+  sprintStartDate = computed(() => new Date('2025-05-26T00:00:00.000+0400'));
 
   computedSprintStartDate = computed(() => {
     const originalSprintStartDate = this.sprintStartDate();
@@ -44,7 +44,7 @@ export class JiraTestComponent implements OnInit {
   });
 
   workingDaysHours = computed(() => {
-    const leaveDays = 0;
+    const leaveDays = 1;
     const daysWithoutWeekends = this.daysWithoutWeekends();
     return daysWithoutWeekends * 8 - leaveDays * 8;
   });
@@ -55,7 +55,6 @@ export class JiraTestComponent implements OnInit {
     const workLogs = [];
     for (const issue of this.issues()) {
       for (const workLog of issue.fields.worklog.worklogs) {
-        console.log(workLog.started, this.computedSprintStartDate(), new Date(workLog.started) <= this.computedSprintStartDate());
         if (new Date(workLog.started) >= this.computedSprintStartDate()) {
           workLogs.push(workLog);
         }
@@ -93,13 +92,12 @@ export class JiraTestComponent implements OnInit {
 
   getWorkLogsByUser(user: string) {
     const workLogs = this.workLogsByUser()[user];
-    const seconds = workLogs.reduce(
-      (acc, workLog) => acc + workLog.timeSpentSeconds,
-      0
+    return this.secondsToHours(
+      workLogs.reduce(
+        (acc, workLog) => acc + workLog.timeSpentSeconds,
+        0
+      )
     );
-    const hours = Math.floor(seconds / 3600);
-    const minutes = Math.floor((seconds % 3600) / 60);
-    return `${hours}h ${minutes}m`;
   }
 
   getIssuesByUser(user: string) {
@@ -117,14 +115,34 @@ export class JiraTestComponent implements OnInit {
     return this.issues().find((issue) => issue.id === issueId)?.key;
   }
 
+  getIssueDateById(issueId: string) {
+    return this.issues()
+      .filter((issue) => issue.id === issueId)
+      .map((issue) =>
+        issue.fields.worklog.worklogs
+          .filter(
+            (workLog) =>
+              new Date(workLog.started) >= this.computedSprintStartDate()
+          )
+          .map((workLog) => `${new Date(workLog.started).toLocaleDateString()}: ${this.secondsToHours(workLog.timeSpentSeconds)}`)
+          .join(', ')
+      )
+      .join(', ');
+  }
+
   getIssuesWorkLogsByUser(user: string, issueId: string) {
     const workLogs = this.workLogsByUser()[user].filter(
       (workLog) => workLog.issueId === issueId
     );
-    const seconds = workLogs.reduce(
-      (acc, workLog) => acc + workLog.timeSpentSeconds,
-      0
+    return this.secondsToHours(
+      workLogs.reduce(
+        (acc, workLog) => acc + workLog.timeSpentSeconds,
+        0
+      )
     );
+  }
+
+  private secondsToHours(seconds: number) {
     const hours = Math.floor(seconds / 3600);
     const minutes = Math.floor((seconds % 3600) / 60);
     return `${hours}h ${minutes}m`;

@@ -2,7 +2,24 @@
 
 @for (user of distinctUsers(); track $index) {
   <h3>{{ $index + 1 }}. {{ user }} - {{ getWorkLogsByUser(user) }}</h3>
-  @for (issue of getIssuesByUser(user); track $index) {
-    <p>{{ getIssueKeyById(issue) }} - {{ getIssueNameById(issue) }} - {{ getIssuesWorkLogsByUser(user, issue) }}</p>
-  }
+  <table>
+    <thead>
+      <tr>
+        <th>Issue Key</th>
+        <th>Issue Name</th>
+        <th>Time Spent</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (issue of getIssuesByUser(user); track $index) {
+        <tr>
+          <td>{{ getIssueKeyById(issue) }}</td>
+          <td>{{ getIssueNameById(issue) }}</td>
+          <td>{{ getIssuesWorkLogsByUser(user, issue) }}</td>
+          <td>{{ getIssueDateById(issue) }}</td>
+        </tr>
+      }
+    </tbody>
+  </table>
 }
