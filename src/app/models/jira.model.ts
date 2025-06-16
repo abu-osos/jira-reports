@@ -30,6 +30,7 @@ export interface WorklogItem {
     author: Assignee;
     started: Date;
     timeSpent: string;
+    comment: string;
     timeSpentSeconds: number;
     issueId: string;
 }

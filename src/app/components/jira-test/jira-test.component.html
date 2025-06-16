@@ -17,7 +17,14 @@
           <td>{{ getIssueKeyById(issue) }}</td>
           <td>{{ getIssueNameById(issue) }}</td>
           <td>{{ getIssuesWorkLogsByUser(user, issue) }}</td>
-          <td>{{ getIssueDateById(issue) }}</td>
+          <td>
+            @for (date of getIssueDateById(issue, user); track $index) {
+              @for (time of date; track $index) {
+                {{ time }}
+                <br />
+              }
+            }
+          </td>
         </tr>
       }
     </tbody>

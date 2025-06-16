@@ -7,10 +7,9 @@ import { SprintIssueResponse } from '../models/jira.model';
   providedIn: 'root',
 })
 export class JiraService {
-  private readonly jiraUrl = 'https://gearsjira.atlassian.net/rest/agile/1.0/board/55/sprint/2109/issue?maxResults=1000';
   constructor(private http: HttpClient) {}
 
   getSprintIssues(): Observable<SprintIssueResponse> {
-    return this.http.get<SprintIssueResponse>(this.jiraUrl);
+    return this.http.get<SprintIssueResponse>('data/sprint-issues.json');
   }
 }

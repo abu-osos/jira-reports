@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { JiraService } from '../../services/jira.service';
 import { map } from 'rxjs/operators';
 import { SprintIssue, WorklogItem } from '../../models/jira.model';
-
+import { environment } from '../../../environments/environment';
 @Component({
   selector: 'app-jira-test',
   standalone: true,
@@ -14,7 +14,7 @@ import { SprintIssue, WorklogItem } from '../../models/jira.model';
 export class JiraTestComponent implements OnInit {
   private jiraService = inject(JiraService);
 
-  sprintStartDate = computed(() => new Date('2025-05-26T00:00:00.000+0400'));
+  sprintStartDate = computed(() => new Date(environment.SPRINT_START_DATE));
 
   computedSprintStartDate = computed(() => {
     const originalSprintStartDate = this.sprintStartDate();
@@ -115,19 +115,18 @@ export class JiraTestComponent implements OnInit {
     return this.issues().find((issue) => issue.id === issueId)?.key;
   }
 
-  getIssueDateById(issueId: string) {
-    return this.issues()
+  getIssueDateById(issueId: string, user: string) {
+    const res = this.issues()
       .filter((issue) => issue.id === issueId)
       .map((issue) =>
         issue.fields.worklog.worklogs
           .filter(
             (workLog) =>
-              new Date(workLog.started) >= this.computedSprintStartDate()
+              new Date(workLog.started) >= this.computedSprintStartDate() && workLog.author.displayName === user
           )
           .map((workLog) => `${new Date(workLog.started).toLocaleDateString()}: ${this.secondsToHours(workLog.timeSpentSeconds)}`)
-          .join(', ')
-      )
-      .join(', ');
+      );
+    return res;
   }
 
   getIssuesWorkLogsByUser(user: string, issueId: string) {

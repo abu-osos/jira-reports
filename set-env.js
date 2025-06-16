@@ -7,7 +7,7 @@ if (!fs.existsSync(envDir)) {
   fs.mkdirSync(envDir, { recursive: true });
 }
 
-const targetPath = path.join(envDir, 'environment.prod.ts');
+const targetPath = path.join(envDir, 'environment.prod1.ts');
 
 // Fetch the environment variables. Make sure these are set in your Vercel project settings.
 const jiraUsername = process.env.JIRA_USERNAME;
