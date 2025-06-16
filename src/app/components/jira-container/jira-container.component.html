@@ -1,1 +1,3 @@
-<p>jira-container works!</p>
+<h2>Jira Summary - {{ workingHours() }}h</h2>
+
+<app-user-list [users]="users()" [workLogs]="workLogs()" (view)="onView($event)" />
