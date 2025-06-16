@@ -55,6 +55,7 @@ export class JiraContainerComponent {
       data: {
         user,
         issues: this.getIssuesByUser(user),
+        sprintStartDate: this.computedSprintStartDate(),
       },
     });
   }

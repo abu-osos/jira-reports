@@ -3,8 +3,8 @@
     @for (issue of data.issues; track $index) {
         <p class="issue-title">{{ $index + 1 }}. {{ issue.key }} - {{ issue.fields.summary }}</p>
         @for (worklog of worklogByUser(issue.id); track $index) {
-            <p>{{ worklog.started | date:'dd/MM/yyyy, EEEE' }} - {{ worklog.timeSpentSeconds | toHhMm }}</p>
-            <p>{{ worklog.comment }}</p>
+            <p class="worklog-date">{{ worklog.started | date:'dd/MM/yyyy, EEEE' }} - {{ worklog.timeSpentSeconds | toHhMm }}</p>
+            <div [innerHTML]="worklog.comment | formatComment"></div>
         }
     }
 </mat-dialog-content>
