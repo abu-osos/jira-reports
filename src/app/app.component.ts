@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { JiraTestComponent } from './components/jira-test/jira-test.component';
+import { JiraContainerComponent } from "./components/jira-container/jira-container.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [JiraTestComponent],
+  imports: [JiraContainerComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
