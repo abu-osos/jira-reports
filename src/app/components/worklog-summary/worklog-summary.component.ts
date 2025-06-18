@@ -36,9 +36,11 @@ interface DateViewWorklog {
   ],
   templateUrl: './worklog-summary.component.html',
   styleUrl: './worklog-summary.component.scss',
+  providers: [ToHhMmPipe],
 })
 export class WorklogSummaryComponent implements OnInit {
   data = inject<DialogData>(MAT_DIALOG_DATA);
+  toHhMmPipe = inject(ToHhMmPipe);
   viewMode: 'issue' | 'date' = 'issue';
   worklogsByDate = new Map<string, DateViewWorklog[]>();
 
@@ -93,5 +95,21 @@ export class WorklogSummaryComponent implements OnInit {
         (a, b) => new Date(b[0]).getTime() - new Date(a[0]).getTime()
       )
     );
+  }
+
+  generateIssueTitle(issue: SprintIssue): string {
+    return `${issue.key} - ${issue.fields.summary} - 
+    (${ issue.fields.timespent ? this.toHhMmPipe.transform(issue.fields.timespent) : 0} / 
+    ${ issue.fields.timeoriginalestimate ? this.toHhMmPipe.transform(issue.fields.timeoriginalestimate) : 0})`;
+  }
+
+  hasTicketIssues(issue: SprintIssue): boolean {
+    if (!issue.fields.timeoriginalestimate) {
+      return true;
+    }
+    if (issue.fields.timespent > issue.fields.timeoriginalestimate) {
+      return true;
+    }
+    return false;
   }
 }

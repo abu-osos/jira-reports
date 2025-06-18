@@ -1,51 +1,60 @@
 .issue-title {
-    font-weight: bold;
-    margin-bottom: 1rem;
-    color: #0C66E4;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.date-title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #0c66e4;
 }
 
 .worklog-date {
-    font-size: 0.8rem;
-    color: #0C66E4;
-    cursor: pointer;
+  font-size: 0.8rem;
+  color: #0c66e4;
+  cursor: pointer;
 }
 
 .worklog-toggle {
-    display: none;
+  display: none;
 }
 
 .worklog-comment {
-    display: none;
+  display: none;
 }
 
 .worklog-toggle:checked + .worklog-comment {
-    display: block;
+  display: block;
 }
 
 .worklog-details {
-    display: none;
+  display: none;
 }
 
 .worklog-toggle:checked + .worklog-details {
-    display: block;
+  display: block;
 }
 
 .bold {
-    font-weight: bold;
-    cursor: pointer;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .view-mode-toggle {
-    margin-bottom: 1rem;
-    
-    .mat-button-toggle {
-      border: 1px solid #0C66E4;
-      background-color: transparent;
-      color: #0C66E4;
+  margin-bottom: 1rem;
 
-      &.mat-button-toggle-checked {
-        background-color: #0C66E4;
-        color: white;
-      }
+  .mat-button-toggle {
+    border: 1px solid #0c66e4;
+    background-color: transparent;
+    color: #0c66e4;
+
+    &.mat-button-toggle-checked {
+      background-color: #0c66e4;
+      color: white;
     }
   }
+}
+
+.red {
+  color: red;
+}

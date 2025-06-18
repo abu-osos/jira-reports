@@ -11,6 +11,8 @@
             "key": "OBPP-4564",
             "fields": {
                 "summary": "Sprint 28 - QA Tasks",
+                "timespent": null,
+                "timeoriginalestimate": 230400,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -37,8 +39,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 230400
+                }
             }
         },
         {
@@ -48,6 +49,8 @@
             "key": "OBPP-4565",
             "fields": {
                 "summary": "Regression Testing for 2025/6/18th release",
+                "timespent": 180000,
+                "timeoriginalestimate": 230400,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -303,8 +306,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 230400
+                }
             }
         },
         {
@@ -314,6 +316,8 @@
             "key": "OBPP-4592",
             "fields": {
                 "summary": "Learning and Development",
+                "timespent": null,
+                "timeoriginalestimate": null,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -340,8 +344,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -351,6 +354,8 @@
             "key": "OBPP-3859",
             "fields": {
                 "summary": "\"Select All\" checkbox not selecting all elements properly.",
+                "timespent": null,
+                "timeoriginalestimate": null,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -378,8 +383,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -389,6 +393,8 @@
             "key": "OBPP-3860",
             "fields": {
                 "summary": "Search Results For Hybrid Columns",
+                "timespent": null,
+                "timeoriginalestimate": null,
                 "assignee": null,
                 "worklog": {
                     "startAt": 0,
@@ -402,8 +408,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -413,6 +418,8 @@
             "key": "OBPP-3871",
             "fields": {
                 "summary": "Custom Data Set Table Schema Verification - New Implementation",
+                "timespent": null,
+                "timeoriginalestimate": 0,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
                     "accountId": "6389c69ef6c85b343c0c1d53",
@@ -439,8 +446,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 0
+                }
             }
         },
         {
@@ -450,6 +456,8 @@
             "key": "OBPP-3874",
             "fields": {
                 "summary": "Getting Database Schemas and Tables in to FE",
+                "timespent": null,
+                "timeoriginalestimate": null,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
                     "accountId": "6389c69ef6c85b343c0c1d53",
@@ -476,8 +484,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -487,6 +494,8 @@
             "key": "OBPP-3584",
             "fields": {
                 "summary": "Notification - Advanced Setting Screen",
+                "timespent": null,
+                "timeoriginalestimate": 158400,
                 "assignee": null,
                 "worklog": {
                     "startAt": 0,
@@ -500,8 +509,7 @@
                     "key": "undefined",
                     "colorName": "medium-gray",
                     "name": "No Category"
-                },
-                "timeoriginalestimate": 158400
+                }
             }
         },
         {
@@ -511,6 +519,8 @@
             "key": "OBPP-3640",
             "fields": {
                 "summary": "Backend implementation ",
+                "timespent": 28800,
+                "timeoriginalestimate": 28800,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -577,8 +587,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -588,6 +597,8 @@
             "key": "OBPP-3641",
             "fields": {
                 "summary": "Frontend implementation ",
+                "timespent": 28800,
+                "timeoriginalestimate": 28800,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -654,8 +665,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -665,6 +675,8 @@
             "key": "OBPP-3896",
             "fields": {
                 "summary": "Test Design",
+                "timespent": 36900,
+                "timeoriginalestimate": 50400,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -807,8 +819,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 50400
+                }
             }
         },
         {
@@ -818,6 +829,8 @@
             "key": "OBPP-3897",
             "fields": {
                 "summary": "Test Execution",
+                "timespent": 9000,
+                "timeoriginalestimate": 50400,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -921,8 +934,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 50400
+                }
             }
         },
         {
@@ -932,6 +944,8 @@
             "key": "OBPP-4591",
             "fields": {
                 "summary": "Role based access to the generated reports",
+                "timespent": 28800,
+                "timeoriginalestimate": null,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -998,8 +1012,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -1009,6 +1022,8 @@
             "key": "OBPP-4251",
             "fields": {
                 "summary": "Workflow - Quick Action Button - Consult",
+                "timespent": null,
+                "timeoriginalestimate": 57600,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=636c8715c383ad842146a6d2",
                     "accountId": "636c8715c383ad842146a6d2",
@@ -1035,8 +1050,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 57600
+                }
             }
         },
         {
@@ -1046,6 +1060,8 @@
             "key": "OBPP-4598",
             "fields": {
                 "summary": "FE changes related consult ",
+                "timespent": null,
+                "timeoriginalestimate": null,
                 "assignee": null,
                 "worklog": {
                     "startAt": 0,
@@ -1059,8 +1075,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -1070,6 +1085,8 @@
             "key": "OBPP-4599",
             "fields": {
                 "summary": "BE changes related to consult",
+                "timespent": 14400,
+                "timeoriginalestimate": 57600,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=636c8715c383ad842146a6d2",
                     "accountId": "636c8715c383ad842146a6d2",
@@ -1175,8 +1192,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 57600
+                }
             }
         },
         {
@@ -1186,6 +1202,8 @@
             "key": "OBPP-3906",
             "fields": {
                 "summary": "Layout Builder - Field Configuration Drawer - P1",
+                "timespent": null,
+                "timeoriginalestimate": 144000,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
                     "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
@@ -1212,8 +1230,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 144000
+                }
             }
         },
         {
@@ -1223,6 +1240,8 @@
             "key": "OBPP-4365",
             "fields": {
                 "summary": "Test Design",
+                "timespent": 14400,
+                "timeoriginalestimate": 43200,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -1288,8 +1307,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 43200
+                }
             }
         },
         {
@@ -1299,6 +1317,8 @@
             "key": "OBPP-3908",
             "fields": {
                 "summary": "RnD on Salesforce and handling custom fields in dynamic form builders and how to apply for our document type-based system",
+                "timespent": 100800,
+                "timeoriginalestimate": 86400,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
                     "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
@@ -1480,8 +1500,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 86400
+                }
             }
         },
         {
@@ -1491,6 +1510,8 @@
             "key": "OBPP-4583",
             "fields": {
                 "summary": "Finalize the configuration options given in the user story",
+                "timespent": null,
+                "timeoriginalestimate": 14400,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
                     "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
@@ -1517,8 +1538,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 14400
+                }
             }
         },
         {
@@ -1528,6 +1548,8 @@
             "key": "OBPP-4563",
             "fields": {
                 "summary": "Workflow - Quick Action Button - Refer Back -Transition wise",
+                "timespent": null,
+                "timeoriginalestimate": 86400,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63ce51fd16dfc2b1fbc9cd83",
                     "accountId": "63ce51fd16dfc2b1fbc9cd83",
@@ -1554,8 +1576,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 86400
+                }
             }
         },
         {
@@ -1565,6 +1586,8 @@
             "key": "OBPP-4572",
             "fields": {
                 "summary": "UI Implimentation",
+                "timespent": 21600,
+                "timeoriginalestimate": 28800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63ce51fd16dfc2b1fbc9cd83",
                     "accountId": "63ce51fd16dfc2b1fbc9cd83",
@@ -1631,8 +1654,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -1642,6 +1664,8 @@
             "key": "OBPP-4573",
             "fields": {
                 "summary": "Back end Implimentation",
+                "timespent": 50400,
+                "timeoriginalestimate": 57600,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63ce51fd16dfc2b1fbc9cd83",
                     "accountId": "63ce51fd16dfc2b1fbc9cd83",
@@ -1693,8 +1717,8 @@
                             },
                             "comment": "* Create two end point to retrieve executed transition list and execute user list separately(previously it is plan to get one end point)\n* implement backend logic for get transition list and user list match with refer back requrement.",
                             "created": "2025-06-17T05:28:33.322+0400",
-                            "updated": "2025-06-18T07:43:37.473+0400",
-                            "started": "2025-06-16T23:22:14.737+0400",
+                            "updated": "2025-06-18T08:53:53.354+0400",
+                            "started": "2025-06-16T13:00:00.000+0400",
                             "timeSpent": "6h",
                             "timeSpentSeconds": 21600,
                             "id": "88417",
@@ -1825,8 +1849,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 57600
+                }
             }
         },
         {
@@ -1836,6 +1859,8 @@
             "key": "OBPP-4566",
             "fields": {
                 "summary": "Access MongoDB data through Postgresql database R and D",
+                "timespent": 115200,
+                "timeoriginalestimate": null,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -2019,8 +2044,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -2030,6 +2054,8 @@
             "key": "OBPP-4576",
             "fields": {
                 "summary": "Release work",
+                "timespent": 39600,
+                "timeoriginalestimate": null,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -2174,8 +2200,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -2185,6 +2210,8 @@
             "key": "OBPP-4253",
             "fields": {
                 "summary": "Workflow - Quick Action Button - Refer Back - User wise",
+                "timespent": null,
+                "timeoriginalestimate": 144000,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63ce51fd16dfc2b1fbc9cd83",
                     "accountId": "63ce51fd16dfc2b1fbc9cd83",
@@ -2211,8 +2238,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 144000
+                }
             }
         },
         {
@@ -2222,6 +2248,8 @@
             "key": "OBPP-4261",
             "fields": {
                 "summary": "UI Implimentation",
+                "timespent": 18000,
+                "timeoriginalestimate": 28800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63ce51fd16dfc2b1fbc9cd83",
                     "accountId": "63ce51fd16dfc2b1fbc9cd83",
@@ -2273,8 +2301,8 @@
                             },
                             "comment": "* Update revert back popup match with user wise",
                             "created": "2025-06-16T08:26:20.050+0400",
-                            "updated": "2025-06-18T07:45:06.607+0400",
-                            "started": "2025-06-12T02:25:00.000+0400",
+                            "updated": "2025-06-18T08:56:32.482+0400",
+                            "started": "2025-06-12T13:00:00.000+0400",
                             "timeSpent": "2h",
                             "timeSpentSeconds": 7200,
                             "id": "88192",
@@ -2312,8 +2340,8 @@
                             },
                             "comment": "* Modify revert UI functionalities",
                             "created": "2025-06-18T07:57:46.141+0400",
-                            "updated": "2025-06-18T07:57:46.141+0400",
-                            "started": "2025-06-12T06:56:00.000+0400",
+                            "updated": "2025-06-18T08:56:20.450+0400",
+                            "started": "2025-06-12T13:00:00.000+0400",
                             "timeSpent": "1h",
                             "timeSpentSeconds": 3600,
                             "id": "88684",
@@ -2351,8 +2379,8 @@
                             },
                             "comment": "* Do the popup amenment to match with new endponts.",
                             "created": "2025-06-17T05:30:06.660+0400",
-                            "updated": "2025-06-17T08:10:52.254+0400",
-                            "started": "2025-06-16T04:29:00.000+0400",
+                            "updated": "2025-06-18T08:56:06.220+0400",
+                            "started": "2025-06-16T13:00:00.000+0400",
                             "timeSpent": "2h",
                             "timeSpentSeconds": 7200,
                             "id": "88418",
@@ -2366,8 +2394,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -2377,6 +2404,8 @@
             "key": "OBPP-4262",
             "fields": {
                 "summary": "Back end Implimentation",
+                "timespent": 25200,
+                "timeoriginalestimate": 72000,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -2521,8 +2550,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 72000
+                }
             }
         },
         {
@@ -2532,6 +2560,8 @@
             "key": "OBPP-4294",
             "fields": {
                 "summary": "Mind map - Workflow - Quick Action Button - Refer Back",
+                "timespent": 10800,
+                "timeoriginalestimate": 14400,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aa2a5de2c-890e-4df5-9ace-46c8bda807ea",
                     "accountId": "712020:a2a5de2c-890e-4df5-9ace-46c8bda807ea",
@@ -2597,8 +2627,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 14400
+                }
             }
         },
         {
@@ -2608,6 +2637,8 @@
             "key": "OBPP-4391",
             "fields": {
                 "summary": "Test Design - Workflow - Quick Action Button - Refer Back",
+                "timespent": 36000,
+                "timeoriginalestimate": 43200,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aa2a5de2c-890e-4df5-9ace-46c8bda807ea",
                     "accountId": "712020:a2a5de2c-890e-4df5-9ace-46c8bda807ea",
@@ -2711,8 +2742,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 43200
+                }
             }
         },
         {
@@ -2722,6 +2752,8 @@
             "key": "OBPP-4096",
             "fields": {
                 "summary": "Bold Reports - Integrate Bold Report Designer",
+                "timespent": 115200,
+                "timeoriginalestimate": 9000,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -2827,8 +2859,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 9000
+                }
             }
         },
         {
@@ -2838,6 +2869,8 @@
             "key": "OBPP-4143",
             "fields": {
                 "summary": "Test Designing",
+                "timespent": 10800,
+                "timeoriginalestimate": 10800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A6688add9-e3b1-4c1a-aaa5-24d145bba898",
                     "accountId": "712020:6688add9-e3b1-4c1a-aaa5-24d145bba898",
@@ -2941,8 +2974,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 10800
+                }
             }
         },
         {
@@ -2952,6 +2984,8 @@
             "key": "OBPP-4144",
             "fields": {
                 "summary": "Functional Testing",
+                "timespent": null,
+                "timeoriginalestimate": null,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A6688add9-e3b1-4c1a-aaa5-24d145bba898",
                     "accountId": "712020:6688add9-e3b1-4c1a-aaa5-24d145bba898",
@@ -2978,8 +3012,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -2989,6 +3022,8 @@
             "key": "OBPP-4208",
             "fields": {
                 "summary": "Report Builder: Backend Implemantaions",
+                "timespent": 291600,
+                "timeoriginalestimate": null,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -3229,6 +3264,45 @@
                             "issueId": "100649"
                         },
                         {
+                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/100649/worklog/88666",
+                            "author": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A374f2de9-7887-4bef-806c-0065456d04a6",
+                                "accountId": "712020:374f2de9-7887-4bef-806c-0065456d04a6",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png"
+                                },
+                                "displayName": "Amindu Samarasinghe",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "updateAuthor": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A374f2de9-7887-4bef-806c-0065456d04a6",
+                                "accountId": "712020:374f2de9-7887-4bef-806c-0065456d04a6",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png"
+                                },
+                                "displayName": "Amindu Samarasinghe",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "comment": "worked on encryption",
+                            "created": "2025-06-17T22:05:46.775+0400",
+                            "updated": "2025-06-18T08:47:07.647+0400",
+                            "started": "2025-06-13T09:30:00.000+0400",
+                            "timeSpent": "7h",
+                            "timeSpentSeconds": 25200,
+                            "id": "88666",
+                            "issueId": "100649"
+                        },
+                        {
                             "self": "https://gearsjira.atlassian.net/rest/api/2/issue/100649/worklog/88315",
                             "author": {
                                 "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A374f2de9-7887-4bef-806c-0065456d04a6",
@@ -3266,45 +3340,6 @@
                             "timeSpentSeconds": 7200,
                             "id": "88315",
                             "issueId": "100649"
-                        },
-                        {
-                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/100649/worklog/88666",
-                            "author": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A374f2de9-7887-4bef-806c-0065456d04a6",
-                                "accountId": "712020:374f2de9-7887-4bef-806c-0065456d04a6",
-                                "avatarUrls": {
-                                    "48x48": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
-                                    "24x24": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
-                                    "16x16": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
-                                    "32x32": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png"
-                                },
-                                "displayName": "Amindu Samarasinghe",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "updateAuthor": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A374f2de9-7887-4bef-806c-0065456d04a6",
-                                "accountId": "712020:374f2de9-7887-4bef-806c-0065456d04a6",
-                                "avatarUrls": {
-                                    "48x48": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
-                                    "24x24": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
-                                    "16x16": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
-                                    "32x32": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png"
-                                },
-                                "displayName": "Amindu Samarasinghe",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "comment": "worked on encryption",
-                            "created": "2025-06-17T22:05:46.775+0400",
-                            "updated": "2025-06-17T22:05:46.775+0400",
-                            "started": "2025-06-19T09:30:00.000+0400",
-                            "timeSpent": "7h",
-                            "timeSpentSeconds": 25200,
-                            "id": "88666",
-                            "issueId": "100649"
                         }
                     ]
                 },
@@ -3328,8 +3363,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -3339,6 +3373,8 @@
             "key": "OBPP-4279",
             "fields": {
                 "summary": "Mind Map ",
+                "timespent": 2700,
+                "timeoriginalestimate": 3600,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -3404,8 +3440,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 3600
+                }
             }
         },
         {
@@ -3415,6 +3450,8 @@
             "key": "OBPP-4097",
             "fields": {
                 "summary": "Bold Reports - Integrate Bold Report Viewer",
+                "timespent": null,
+                "timeoriginalestimate": null,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -3441,8 +3478,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -3452,6 +3488,8 @@
             "key": "OBPP-3879",
             "fields": {
                 "summary": "Workflow - Workflow Notifications to the user",
+                "timespent": null,
+                "timeoriginalestimate": 129600,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=636c8715c383ad842146a6d2",
                     "accountId": "636c8715c383ad842146a6d2",
@@ -3478,8 +3516,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 129600
+                }
             }
         },
         {
@@ -3489,6 +3526,8 @@
             "key": "OBPP-3923",
             "fields": {
                 "summary": "Test Design - Workflow - Workflow Notifications to the user",
+                "timespent": 28800,
+                "timeoriginalestimate": 28800,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -3630,8 +3669,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -3641,6 +3679,8 @@
             "key": "OBPP-3924",
             "fields": {
                 "summary": "Mind map - Workflow - Workflow Notifications to the user",
+                "timespent": 13500,
+                "timeoriginalestimate": 14400,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63a9ae2f159df2c252e70994",
                     "accountId": "63a9ae2f159df2c252e70994",
@@ -3782,8 +3822,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 14400
+                }
             }
         },
         {
@@ -3793,6 +3832,8 @@
             "key": "OBPP-4209",
             "fields": {
                 "summary": "Back end implimentation related to notification to user",
+                "timespent": 43200,
+                "timeoriginalestimate": 43200,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=636c8715c383ad842146a6d2",
                     "accountId": "636c8715c383ad842146a6d2",
@@ -3898,8 +3939,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 43200
+                }
             }
         },
         {
@@ -3909,6 +3949,8 @@
             "key": "OBPP-4210",
             "fields": {
                 "summary": "Front end implimentation related to notification to user",
+                "timespent": 43200,
+                "timeoriginalestimate": 43200,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -4053,8 +4095,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 43200
+                }
             }
         },
         {
@@ -4064,6 +4105,8 @@
             "key": "OBPP-4258",
             "fields": {
                 "summary": "Implement send notification for specific user",
+                "timespent": 7200,
+                "timeoriginalestimate": 7200,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -4129,8 +4172,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 7200
+                }
             }
         },
         {
@@ -4140,6 +4182,8 @@
             "key": "OBPP-3833",
             "fields": {
                 "summary": "Elastic Search - History Log Implementation",
+                "timespent": null,
+                "timeoriginalestimate": 154800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A1748e363-128d-49f0-a392-324e98a3118e",
                     "accountId": "712020:1748e363-128d-49f0-a392-324e98a3118e",
@@ -4166,8 +4210,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 154800
+                }
             }
         },
         {
@@ -4177,6 +4220,8 @@
             "key": "OBPP-4364",
             "fields": {
                 "summary": "Setup ElasticSearch 9.x in Docker , Test",
+                "timespent": 28800,
+                "timeoriginalestimate": 10800,
                 "assignee": null,
                 "worklog": {
                     "startAt": 0,
@@ -4230,8 +4275,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 10800
+                }
             }
         },
         {
@@ -4241,6 +4285,8 @@
             "key": "OBPP-4432",
             "fields": {
                 "summary": "Setup Seri Log for basics logs and Test and Deploy to Develpment Server and Test the System for Logs ",
+                "timespent": 25200,
+                "timeoriginalestimate": 28800,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -4307,8 +4353,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -4318,6 +4363,8 @@
             "key": "OBPP-4437",
             "fields": {
                 "summary": "Research on Elasticsearch - Article Review & Sample Project Analysis",
+                "timespent": 25200,
+                "timeoriginalestimate": 57600,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -4384,8 +4431,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 57600
+                }
             }
         },
         {
@@ -4395,6 +4441,22 @@
             "key": "OBPP-4461",
             "fields": {
                 "summary": "Apply elastic search to log changes",
+                "timespent": 90000,
+                "timeoriginalestimate": 57600,
+                "assignee": {
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A1748e363-128d-49f0-a392-324e98a3118e",
+                    "accountId": "712020:1748e363-128d-49f0-a392-324e98a3118e",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png",
+                        "24x24": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png",
+                        "16x16": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png",
+                        "32x32": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png"
+                    },
+                    "displayName": "Dileepa Devnuwan",
+                    "active": true,
+                    "timeZone": "Asia/Dubai",
+                    "accountType": "atlassian"
+                },
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -4549,8 +4611,8 @@
                             },
                             "comment": "* Investigated and implemented ElasticSearch-based history/audit logging for ERP master and transaction forms.\n* Developed and tested logic to store and retrieve detailed change history (including handling large response bodies with 5000+ words per record).\n* Compared ElasticSearch to Loki for log storage—found that ES can handle large text bodies, but Loki has limitations with long logs.\n* Collaborated with Frontend (FE) to clarify requirements and align response formats, especially for relationship-based history logs.\n* Spent additional time troubleshooting laptop slowness which impacted my productivity during the day.\n* Tested end-to-end: saved large payloads to ES, verified storage and retrieval, and checked integration with FE’s expectations for audit trail.\n* Paused on advanced nested comparison logic for now (pending further discussion) to ensure the base solution works for both main and related entities.\n* Some time spent analyzing request samples and researching optimal JSON property extraction methods for accurate change tracking.\n* Work is still *R&D/prototype*—current code is not fully production-ready, will refactor and standardize in the next branch after core functionality is finalized.",
                             "created": "2025-06-18T05:45:41.551+0400",
-                            "updated": "2025-06-18T05:45:41.551+0400",
-                            "started": "2025-06-17T21:45:00.000+0400",
+                            "updated": "2025-06-18T08:51:12.145+0400",
+                            "started": "2025-06-17T09:00:00.000+0400",
                             "timeSpent": "1d",
                             "timeSpentSeconds": 28800,
                             "id": "88672",
@@ -4558,28 +4620,13 @@
                         }
                     ]
                 },
-                "assignee": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A1748e363-128d-49f0-a392-324e98a3118e",
-                    "accountId": "712020:1748e363-128d-49f0-a392-324e98a3118e",
-                    "avatarUrls": {
-                        "48x48": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png",
-                        "24x24": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png",
-                        "16x16": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png",
-                        "32x32": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png"
-                    },
-                    "displayName": "Dileepa Devnuwan",
-                    "active": true,
-                    "timeZone": "Asia/Dubai",
-                    "accountType": "atlassian"
-                },
                 "statusCategory": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/4",
                     "id": 4,
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 57600
+                }
             }
         },
         {
@@ -4589,6 +4636,8 @@
             "key": "OBPP-3873",
             "fields": {
                 "summary": "Data Set - Data Source - CRUD (List, Add, View, Edit)",
+                "timespent": null,
+                "timeoriginalestimate": 266400,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
                     "accountId": "6389c69ef6c85b343c0c1d53",
@@ -4615,8 +4664,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 266400
+                }
             }
         },
         {
@@ -4626,6 +4674,8 @@
             "key": "OBPP-4268",
             "fields": {
                 "summary": "Dataset - Select data source  FE",
+                "timespent": 57600,
+                "timeoriginalestimate": 57600,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -4770,8 +4820,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 57600
+                }
             }
         },
         {
@@ -4781,6 +4830,8 @@
             "key": "OBPP-4269",
             "fields": {
                 "summary": "Dataset - Query builder sql query generation FE",
+                "timespent": 57600,
+                "timeoriginalestimate": 57600,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
                     "accountId": "6389c69ef6c85b343c0c1d53",
@@ -4925,8 +4976,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 57600
+                }
             }
         },
         {
@@ -4936,6 +4986,8 @@
             "key": "OBPP-4270",
             "fields": {
                 "summary": "Dataset - Preview and confirm FE",
+                "timespent": 57600,
+                "timeoriginalestimate": 57600,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -5080,8 +5132,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 57600
+                }
             }
         },
         {
@@ -5091,6 +5142,8 @@
             "key": "OBPP-4295",
             "fields": {
                 "summary": "Mind map - Data Set - Data Source - Add view ",
+                "timespent": 7200,
+                "timeoriginalestimate": 14400,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aa2a5de2c-890e-4df5-9ace-46c8bda807ea",
                     "accountId": "712020:a2a5de2c-890e-4df5-9ace-46c8bda807ea",
@@ -5156,8 +5209,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 14400
+                }
             }
         },
         {
@@ -5167,6 +5219,8 @@
             "key": "OBPP-4296",
             "fields": {
                 "summary": "Test Design - Data Set - Data Source - Add view ",
+                "timespent": null,
+                "timeoriginalestimate": null,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aa2a5de2c-890e-4df5-9ace-46c8bda807ea",
                     "accountId": "712020:a2a5de2c-890e-4df5-9ace-46c8bda807ea",
@@ -5193,8 +5247,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -5204,6 +5257,8 @@
             "key": "OBPP-4585",
             "fields": {
                 "summary": "Add new dataset changes to List view",
+                "timespent": 18000,
+                "timeoriginalestimate": 18000,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
                     "accountId": "6389c69ef6c85b343c0c1d53",
@@ -5270,8 +5325,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 18000
+                }
             }
         },
         {
@@ -5281,6 +5335,8 @@
             "key": "OBPP-4586",
             "fields": {
                 "summary": "User define SQL query builder and execution",
+                "timespent": 21600,
+                "timeoriginalestimate": 21600,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
                     "accountId": "6389c69ef6c85b343c0c1d53",
@@ -5347,8 +5403,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 21600
+                }
             }
         },
         {
@@ -5358,6 +5413,8 @@
             "key": "OBPP-4602",
             "fields": {
                 "summary": "Dataset - View mode including data source selection, query builder and preview and confirm",
+                "timespent": 28800,
+                "timeoriginalestimate": 39600,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
                     "accountId": "6389c69ef6c85b343c0c1d53",
@@ -5424,8 +5481,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 39600
+                }
             }
         },
         {
@@ -5435,6 +5491,8 @@
             "key": "OBPP-4603",
             "fields": {
                 "summary": "Dataset - Edit mode including data source selection, query builder and preview and confirm",
+                "timespent": null,
+                "timeoriginalestimate": null,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
                     "accountId": "6389c69ef6c85b343c0c1d53",
@@ -5461,8 +5519,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -5472,6 +5529,8 @@
             "key": "OBPP-3574",
             "fields": {
                 "summary": "Report Builder - Drag-and-Drop Functionality for Lines",
+                "timespent": null,
+                "timeoriginalestimate": 26100,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A25b2989a-51a1-4d0b-83e1-b6e01473f320",
                     "accountId": "712020:25b2989a-51a1-4d0b-83e1-b6e01473f320",
@@ -5498,8 +5557,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 26100
+                }
             }
         },
         {
@@ -5509,6 +5567,8 @@
             "key": "OBPP-3918",
             "fields": {
                 "summary": "Test Design - Report Builder - Drag-and-Drop Functionality for Lines",
+                "timespent": 18000,
+                "timeoriginalestimate": 17100,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A6688add9-e3b1-4c1a-aaa5-24d145bba898",
                     "accountId": "712020:6688add9-e3b1-4c1a-aaa5-24d145bba898",
@@ -5613,8 +5673,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 17100
+                }
             }
         },
         {
@@ -5624,6 +5683,8 @@
             "key": "OBPP-3919",
             "fields": {
                 "summary": "Mind map - Report Builder - Drag-and-Drop Functionality for Lines ",
+                "timespent": 5400,
+                "timeoriginalestimate": 9000,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A6688add9-e3b1-4c1a-aaa5-24d145bba898",
                     "accountId": "712020:6688add9-e3b1-4c1a-aaa5-24d145bba898",
@@ -5689,8 +5750,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 9000
+                }
             }
         },
         {
@@ -5700,6 +5760,8 @@
             "key": "OBPP-3894",
             "fields": {
                 "summary": "Authorization -New Change Implementation",
+                "timespent": 14400,
+                "timeoriginalestimate": 57600,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A374f2de9-7887-4bef-806c-0065456d04a6",
                     "accountId": "712020:374f2de9-7887-4bef-806c-0065456d04a6",
@@ -5766,85 +5828,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 57600
-            }
-        },
-        {
-            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
-            "id": "107292",
-            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/107292",
-            "key": "OBPP-4579",
-            "fields": {
-                "summary": "Search functionality not working for \"Description\" field in Appearance Designer",
-                "assignee": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aa2a5de2c-890e-4df5-9ace-46c8bda807ea",
-                    "accountId": "712020:a2a5de2c-890e-4df5-9ace-46c8bda807ea",
-                    "avatarUrls": {
-                        "48x48": "https://secure.gravatar.com/avatar/976ed1c0e31c69967fec8b3934cbbf08?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FND-3.png",
-                        "24x24": "https://secure.gravatar.com/avatar/976ed1c0e31c69967fec8b3934cbbf08?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FND-3.png",
-                        "16x16": "https://secure.gravatar.com/avatar/976ed1c0e31c69967fec8b3934cbbf08?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FND-3.png",
-                        "32x32": "https://secure.gravatar.com/avatar/976ed1c0e31c69967fec8b3934cbbf08?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FND-3.png"
-                    },
-                    "displayName": "Nithmi Danushima Dedduwage",
-                    "active": true,
-                    "timeZone": "Asia/Dubai",
-                    "accountType": "atlassian"
-                },
-                "worklog": {
-                    "startAt": 0,
-                    "maxResults": 20,
-                    "total": 1,
-                    "worklogs": [
-                        {
-                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107292/worklog/88239",
-                            "author": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A374f2de9-7887-4bef-806c-0065456d04a6",
-                                "accountId": "712020:374f2de9-7887-4bef-806c-0065456d04a6",
-                                "avatarUrls": {
-                                    "48x48": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
-                                    "24x24": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
-                                    "16x16": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
-                                    "32x32": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png"
-                                },
-                                "displayName": "Amindu Samarasinghe",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "updateAuthor": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A374f2de9-7887-4bef-806c-0065456d04a6",
-                                "accountId": "712020:374f2de9-7887-4bef-806c-0065456d04a6",
-                                "avatarUrls": {
-                                    "48x48": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
-                                    "24x24": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
-                                    "16x16": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
-                                    "32x32": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png"
-                                },
-                                "displayName": "Amindu Samarasinghe",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "comment": "Investigated, fixed, tested issue ",
-                            "created": "2025-06-16T12:04:01.589+0400",
-                            "updated": "2025-06-16T12:04:01.589+0400",
-                            "started": "2025-06-16T12:30:00.000+0400",
-                            "timeSpent": "1h",
-                            "timeSpentSeconds": 3600,
-                            "id": "88239",
-                            "issueId": "107292"
-                        }
-                    ]
-                },
-                "statusCategory": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/4",
-                    "id": 4,
-                    "key": "indeterminate",
-                    "colorName": "yellow",
-                    "name": "In Progress"
-                },
-                "timeoriginalestimate": 7200
+                }
             }
         },
         {
@@ -5854,6 +5838,8 @@
             "key": "OBPP-4581",
             "fields": {
                 "summary": "Manually added columns in \"Column Selection\" are not reflected in \"Sort\" section, even after page reload",
+                "timespent": 7200,
+                "timeoriginalestimate": 10800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aa2a5de2c-890e-4df5-9ace-46c8bda807ea",
                     "accountId": "712020:a2a5de2c-890e-4df5-9ace-46c8bda807ea",
@@ -5920,85 +5906,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 10800
-            }
-        },
-        {
-            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
-            "id": "107305",
-            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/107305",
-            "key": "OBPP-4582",
-            "fields": {
-                "summary": "Unwanted error popup displayed while deleting a parent company, although deletion is successful\n\n",
-                "assignee": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aa2a5de2c-890e-4df5-9ace-46c8bda807ea",
-                    "accountId": "712020:a2a5de2c-890e-4df5-9ace-46c8bda807ea",
-                    "avatarUrls": {
-                        "48x48": "https://secure.gravatar.com/avatar/976ed1c0e31c69967fec8b3934cbbf08?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FND-3.png",
-                        "24x24": "https://secure.gravatar.com/avatar/976ed1c0e31c69967fec8b3934cbbf08?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FND-3.png",
-                        "16x16": "https://secure.gravatar.com/avatar/976ed1c0e31c69967fec8b3934cbbf08?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FND-3.png",
-                        "32x32": "https://secure.gravatar.com/avatar/976ed1c0e31c69967fec8b3934cbbf08?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FND-3.png"
-                    },
-                    "displayName": "Nithmi Danushima Dedduwage",
-                    "active": true,
-                    "timeZone": "Asia/Dubai",
-                    "accountType": "atlassian"
-                },
-                "worklog": {
-                    "startAt": 0,
-                    "maxResults": 20,
-                    "total": 1,
-                    "worklogs": [
-                        {
-                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107305/worklog/88313",
-                            "author": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A374f2de9-7887-4bef-806c-0065456d04a6",
-                                "accountId": "712020:374f2de9-7887-4bef-806c-0065456d04a6",
-                                "avatarUrls": {
-                                    "48x48": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
-                                    "24x24": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
-                                    "16x16": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
-                                    "32x32": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png"
-                                },
-                                "displayName": "Amindu Samarasinghe",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "updateAuthor": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A374f2de9-7887-4bef-806c-0065456d04a6",
-                                "accountId": "712020:374f2de9-7887-4bef-806c-0065456d04a6",
-                                "avatarUrls": {
-                                    "48x48": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
-                                    "24x24": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
-                                    "16x16": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
-                                    "32x32": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png"
-                                },
-                                "displayName": "Amindu Samarasinghe",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "comment": "while investigating Original tickets issue was resolved as a not bug. But the current bug. its fixed tested",
-                            "created": "2025-06-16T16:09:37.862+0400",
-                            "updated": "2025-06-16T16:09:37.862+0400",
-                            "started": "2025-06-16T15:30:00.000+0400",
-                            "timeSpent": "3h",
-                            "timeSpentSeconds": 10800,
-                            "id": "88313",
-                            "issueId": "107305"
-                        }
-                    ]
-                },
-                "statusCategory": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/4",
-                    "id": 4,
-                    "key": "indeterminate",
-                    "colorName": "yellow",
-                    "name": "In Progress"
-                },
-                "timeoriginalestimate": 14400
+                }
             }
         },
         {
@@ -6008,16 +5916,18 @@
             "key": "OBPP-4595",
             "fields": {
                 "summary": "Preprod - After adding or Editing a Navigator unexpected UI behavior occurs",
+                "timespent": 7200,
+                "timeoriginalestimate": 7200,
                 "assignee": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
-                    "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
+                    "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "avatarUrls": {
-                        "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                        "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                        "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                        "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
                     },
-                    "displayName": "Madushan Wijesuriya",
+                    "displayName": "Kavinda Nishan Jayaweera",
                     "active": true,
                     "timeZone": "Asia/Dubai",
                     "accountType": "atlassian"
@@ -6059,23 +5969,22 @@
                             },
                             "comment": "Reason - Couldn’t able to find exact reason,\nSolution - As a temp fix, did a reload when user navigate to the list page",
                             "created": "2025-06-17T20:33:06.009+0400",
-                            "updated": "2025-06-17T20:33:06.009+0400",
+                            "updated": "2025-06-18T08:46:39.229+0400",
                             "started": "2025-06-17T09:00:00.000+0400",
-                            "timeSpent": "3h",
-                            "timeSpentSeconds": 10800,
+                            "timeSpent": "2h",
+                            "timeSpentSeconds": 7200,
                             "id": "88644",
                             "issueId": "107553"
                         }
                     ]
                 },
                 "statusCategory": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/2",
-                    "id": 2,
-                    "key": "new",
-                    "colorName": "blue-gray",
-                    "name": "To Do"
-                },
-                "timeoriginalestimate": 10800
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/4",
+                    "id": 4,
+                    "key": "indeterminate",
+                    "colorName": "yellow",
+                    "name": "In Progress"
+                }
             }
         },
         {
@@ -6085,6 +5994,8 @@
             "key": "OBPP-4593",
             "fields": {
                 "summary": "Preprod - Email marked as required in user edit mode despite being an optional field",
+                "timespent": 1800,
+                "timeoriginalestimate": 1800,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -6151,8 +6062,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 1800
+                }
             }
         },
         {
@@ -6162,16 +6072,18 @@
             "key": "OBPP-4597",
             "fields": {
                 "summary": "Preprod - Unexpected Column behavior occurs in Navigator page",
+                "timespent": 7200,
+                "timeoriginalestimate": 7200,
                 "assignee": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
-                    "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
+                    "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "avatarUrls": {
-                        "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                        "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                        "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                        "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
                     },
-                    "displayName": "Madushan Wijesuriya",
+                    "displayName": "Kavinda Nishan Jayaweera",
                     "active": true,
                     "timeZone": "Asia/Dubai",
                     "accountType": "atlassian"
@@ -6213,23 +6125,22 @@
                             },
                             "comment": "Reason - json properies have not configured correctly in the assert json. \n\nSolution - set default and selected props true and truncate user column selection table in QA",
                             "created": "2025-06-17T20:26:18.337+0400",
-                            "updated": "2025-06-17T20:26:18.337+0400",
-                            "started": "2025-06-17T13:00:00.000+0400",
-                            "timeSpent": "3h",
-                            "timeSpentSeconds": 10800,
+                            "updated": "2025-06-18T08:49:59.969+0400",
+                            "started": "2025-06-17T00:00:00.000+0400",
+                            "timeSpent": "2h",
+                            "timeSpentSeconds": 7200,
                             "id": "88643",
                             "issueId": "107567"
                         }
                     ]
                 },
                 "statusCategory": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/2",
-                    "id": 2,
-                    "key": "new",
-                    "colorName": "blue-gray",
-                    "name": "To Do"
-                },
-                "timeoriginalestimate": 10800
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/4",
+                    "id": 4,
+                    "key": "indeterminate",
+                    "colorName": "yellow",
+                    "name": "In Progress"
+                }
             }
         },
         {
@@ -6239,6 +6150,8 @@
             "key": "OBPP-4588",
             "fields": {
                 "summary": "Preprod - Designer ID allows creation with <5 characters but fails during filter – inconsistent validation",
+                "timespent": null,
+                "timeoriginalestimate": 7200,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -6265,8 +6178,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 7200
+                }
             }
         },
         {
@@ -6276,6 +6188,8 @@
             "key": "OBPP-4589",
             "fields": {
                 "summary": "Preprod - Unexpected UI issues occurring (Duplicate eye icon)",
+                "timespent": 7200,
+                "timeoriginalestimate": 3600,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -6381,8 +6295,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 3600
+                }
             }
         },
         {
@@ -6392,6 +6305,8 @@
             "key": "OBPP-3869",
             "fields": {
                 "summary": "Data Source Table- API Provisioning - Table Loading to Front End",
+                "timespent": 25620,
+                "timeoriginalestimate": 115200,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -6497,8 +6412,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 115200
+                }
             }
         },
         {
@@ -6508,6 +6422,8 @@
             "key": "OBPP-3909",
             "fields": {
                 "summary": "Attribute Create and Crud Dataset",
+                "timespent": null,
+                "timeoriginalestimate": 28800,
                 "assignee": null,
                 "worklog": {
                     "startAt": 0,
@@ -6521,8 +6437,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -6532,6 +6447,8 @@
             "key": "OBPP-3910",
             "fields": {
                 "summary": "Create API",
+                "timespent": null,
+                "timeoriginalestimate": 86400,
                 "assignee": null,
                 "worklog": {
                     "startAt": 0,
@@ -6545,8 +6462,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 86400
+                }
             }
         },
         {
@@ -6556,6 +6472,8 @@
             "key": "OBPP-4291",
             "fields": {
                 "summary": "Data source execution layer develop",
+                "timespent": 25200,
+                "timeoriginalestimate": 86400,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -6622,8 +6540,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 86400
+                }
             }
         },
         {
@@ -6633,6 +6550,8 @@
             "key": "OBPP-3572",
             "fields": {
                 "summary": "Report Builder - Create Report Design - Toolbox - Implement Widgets UI (Text, Line, Table, etc.)",
+                "timespent": null,
+                "timeoriginalestimate": 2700,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -6659,8 +6578,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 2700
+                }
             }
         },
         {
@@ -6670,6 +6588,8 @@
             "key": "OBPP-3916",
             "fields": {
                 "summary": "Test Design - Report Builder - Create Report Design - Toolbox - Implement Widgets UI (Text, Line, Table, etc.)",
+                "timespent": 15300,
+                "timeoriginalestimate": null,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -6773,8 +6693,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -6784,6 +6703,8 @@
             "key": "OBPP-3917",
             "fields": {
                 "summary": "Mind map - Report Builder - Create Report Design - Toolbox - Implement Widgets UI (Text, Line, Table, etc.)",
+                "timespent": 1800,
+                "timeoriginalestimate": 2700,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A6688add9-e3b1-4c1a-aaa5-24d145bba898",
                     "accountId": "712020:6688add9-e3b1-4c1a-aaa5-24d145bba898",
@@ -6849,8 +6770,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 2700
+                }
             }
         },
         {
@@ -6860,6 +6780,8 @@
             "key": "OBPP-3731",
             "fields": {
                 "summary": "Implementation - Search Function in Document Type End",
+                "timespent": null,
+                "timeoriginalestimate": 109800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
                     "accountId": "6389c69ef6c85b343c0c1d53",
@@ -6886,8 +6808,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 109800
+                }
             }
         },
         {
@@ -6897,6 +6818,8 @@
             "key": "OBPP-3842",
             "fields": {
                 "summary": "Add logic for is searchable functionality",
+                "timespent": 28800,
+                "timeoriginalestimate": 28800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
                     "accountId": "6389c69ef6c85b343c0c1d53",
@@ -7002,8 +6925,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -7013,6 +6935,8 @@
             "key": "OBPP-3843",
             "fields": {
                 "summary": "Discussion for the changes required to task",
+                "timespent": 9000,
+                "timeoriginalestimate": 9000,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -7079,8 +7003,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 9000
+                }
             }
         },
         {
@@ -7090,6 +7013,8 @@
             "key": "OBPP-3861",
             "fields": {
                 "summary": "Integration implementation for list views including common and separate list views ",
+                "timespent": 28800,
+                "timeoriginalestimate": 28800,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -7195,8 +7120,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -7206,6 +7130,8 @@
             "key": "OBPP-4159",
             "fields": {
                 "summary": "Mind Map -Search Function in Document Type End",
+                "timespent": 18000,
+                "timeoriginalestimate": 14400,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aa2a5de2c-890e-4df5-9ace-46c8bda807ea",
                     "accountId": "712020:a2a5de2c-890e-4df5-9ace-46c8bda807ea",
@@ -7309,8 +7235,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 14400
+                }
             }
         },
         {
@@ -7320,6 +7245,8 @@
             "key": "OBPP-4161",
             "fields": {
                 "summary": "Test Design - Search Function in Document Type End",
+                "timespent": 16200,
+                "timeoriginalestimate": 28800,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -7385,8 +7312,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -7396,6 +7322,8 @@
             "key": "OBPP-4297",
             "fields": {
                 "summary": "Data Set - BE Implementation",
+                "timespent": null,
+                "timeoriginalestimate": 288000,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A1748e363-128d-49f0-a392-324e98a3118e",
                     "accountId": "712020:1748e363-128d-49f0-a392-324e98a3118e",
@@ -7422,8 +7350,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 288000
+                }
             }
         },
         {
@@ -7433,6 +7360,8 @@
             "key": "OBPP-4298",
             "fields": {
                 "summary": "CRUD FOR DataSet",
+                "timespent": 86400,
+                "timeoriginalestimate": 144000,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A1748e363-128d-49f0-a392-324e98a3118e",
                     "accountId": "712020:1748e363-128d-49f0-a392-324e98a3118e",
@@ -7499,8 +7428,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 144000
+                }
             }
         },
         {
@@ -7510,6 +7438,8 @@
             "key": "OBPP-4318",
             "fields": {
                 "summary": "Data Source Table- API Provisioning - Table Loading to Front End",
+                "timespent": 57600,
+                "timeoriginalestimate": 57600,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A1748e363-128d-49f0-a392-324e98a3118e",
                     "accountId": "712020:1748e363-128d-49f0-a392-324e98a3118e",
@@ -7576,8 +7506,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 57600
+                }
             }
         },
         {
@@ -7587,6 +7516,8 @@
             "key": "OBPP-4319",
             "fields": {
                 "summary": "Data source execution layer develop",
+                "timespent": 14400,
+                "timeoriginalestimate": 86400,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -7653,8 +7584,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 86400
+                }
             }
         },
         {
@@ -7664,6 +7594,8 @@
             "key": "OBPP-4470",
             "fields": {
                 "summary": "System In App Notification - Customization",
+                "timespent": 68400,
+                "timeoriginalestimate": null,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -7769,8 +7701,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -7780,6 +7711,8 @@
             "key": "OBPP-3555",
             "fields": {
                 "summary": "Test Cases - Enabling Various Channels P2 - Email Channel",
+                "timespent": null,
+                "timeoriginalestimate": null,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -7806,8 +7739,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -7817,6 +7749,8 @@
             "key": "OBPP-3565",
             "fields": {
                 "summary": "Test Executuons - Enabling Various Channels P2 - Email Channel",
+                "timespent": null,
+                "timeoriginalestimate": null,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -7843,8 +7777,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -7854,6 +7787,8 @@
             "key": "OBPP-4252",
             "fields": {
                 "summary": "Workflow - Quick Action Button - Reject",
+                "timespent": null,
+                "timeoriginalestimate": 100800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -7880,8 +7815,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 100800
+                }
             }
         },
         {
@@ -7891,6 +7825,8 @@
             "key": "OBPP-4260",
             "fields": {
                 "summary": "Back end Implementation related to reject ",
+                "timespent": 28800,
+                "timeoriginalestimate": 43200,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=636c8715c383ad842146a6d2",
                     "accountId": "636c8715c383ad842146a6d2",
@@ -7956,8 +7892,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 43200
+                }
             }
         },
         {
@@ -7967,6 +7902,8 @@
             "key": "OBPP-4263",
             "fields": {
                 "summary": "List view UI update with Reject status ",
+                "timespent": null,
+                "timeoriginalestimate": 14400,
                 "assignee": null,
                 "worklog": {
                     "startAt": 0,
@@ -7980,8 +7917,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 14400
+                }
             }
         },
         {
@@ -7991,6 +7927,8 @@
             "key": "OBPP-4276",
             "fields": {
                 "summary": "Mind map - Workflow - Quick Action Button - Reject",
+                "timespent": 12600,
+                "timeoriginalestimate": 14400,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aa2a5de2c-890e-4df5-9ace-46c8bda807ea",
                     "accountId": "712020:a2a5de2c-890e-4df5-9ace-46c8bda807ea",
@@ -8056,8 +7994,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 14400
+                }
             }
         },
         {
@@ -8067,6 +8004,8 @@
             "key": "OBPP-4333",
             "fields": {
                 "summary": "Test Design - Workflow - Quick Action Button - Reject",
+                "timespent": 25200,
+                "timeoriginalestimate": 28800,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -8208,8 +8147,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -8219,6 +8157,8 @@
             "key": "OBPP-4255",
             "fields": {
                 "summary": "Workflow - Quick Action Button - Record Level- Delegate - P1",
+                "timespent": null,
+                "timeoriginalestimate": 158400,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -8245,8 +8185,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 158400
+                }
             }
         },
         {
@@ -8256,6 +8195,8 @@
             "key": "OBPP-4266",
             "fields": {
                 "summary": "Backend Implimentation with Migration chnages",
+                "timespent": 86400,
+                "timeoriginalestimate": 86400,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -8437,8 +8378,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 86400
+                }
             }
         },
         {
@@ -8448,6 +8388,8 @@
             "key": "OBPP-4267",
             "fields": {
                 "summary": "FE changes",
+                "timespent": 43200,
+                "timeoriginalestimate": 28800,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -8552,8 +8494,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -8563,6 +8504,8 @@
             "key": "OBPP-4289",
             "fields": {
                 "summary": "Mind map - Workflow - Quick Action Button - Record Level- Delegate - P1",
+                "timespent": 14400,
+                "timeoriginalestimate": 14400,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -8666,8 +8609,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 14400
+                }
             }
         },
         {
@@ -8677,6 +8619,8 @@
             "key": "OBPP-4552",
             "fields": {
                 "summary": "Test Design - Workflow - Quick Action Button - Record Level- Delegate - P1",
+                "timespent": 28800,
+                "timeoriginalestimate": 28800,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -8780,8 +8724,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -8791,6 +8734,8 @@
             "key": "OBPP-3730",
             "fields": {
                 "summary": "Add authorize attribute to the OBP commonly",
+                "timespent": 7200,
+                "timeoriginalestimate": 100800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -8857,8 +8802,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 100800
+                }
             }
         },
         {
@@ -8868,6 +8812,8 @@
             "key": "OBPP-4141",
             "fields": {
                 "summary": "Test Design",
+                "timespent": 43200,
+                "timeoriginalestimate": 43200,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -9010,8 +8956,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 43200
+                }
             }
         },
         {
@@ -9021,6 +8966,8 @@
             "key": "OBPP-4142",
             "fields": {
                 "summary": "Test Execution ",
+                "timespent": null,
+                "timeoriginalestimate": 57600,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -9047,8 +8994,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 57600
+                }
             }
         },
         {
@@ -9058,6 +9004,8 @@
             "key": "OBPP-3508",
             "fields": {
                 "summary": "Enabling Various Channels P2 - Email Channel",
+                "timespent": null,
+                "timeoriginalestimate": 194400,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -9084,8 +9032,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 194400
+                }
             }
         },
         {
@@ -9095,6 +9042,8 @@
             "key": "OBPP-3552",
             "fields": {
                 "summary": "Test Design",
+                "timespent": 55440,
+                "timeoriginalestimate": 57600,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -9276,8 +9225,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 57600
+                }
             }
         },
         {
@@ -9287,6 +9235,8 @@
             "key": "OBPP-3839",
             "fields": {
                 "summary": "Backend implementation",
+                "timespent": 86400,
+                "timeoriginalestimate": 86400,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -9430,8 +9380,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 86400
+                }
             }
         },
         {
@@ -9441,6 +9390,8 @@
             "key": "OBPP-3883",
             "fields": {
                 "summary": "Refactor the email template feature.",
+                "timespent": null,
+                "timeoriginalestimate": null,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -9467,8 +9418,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -9478,6 +9428,8 @@
             "key": "OBPP-3901",
             "fields": {
                 "summary": "Dev testing ",
+                "timespent": 7200,
+                "timeoriginalestimate": 7200,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -9544,8 +9496,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 7200
+                }
             }
         },
         {
@@ -9555,6 +9506,8 @@
             "key": "OBPP-3904",
             "fields": {
                 "summary": "Email Notification Template - System Notification - Template Viewing and Storing",
+                "timespent": 57600,
+                "timeoriginalestimate": 57600,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -9660,8 +9613,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 57600
+                }
             }
         },
         {
@@ -9671,6 +9623,8 @@
             "key": "OBPP-4328",
             "fields": {
                 "summary": "Refactor the system notification",
+                "timespent": 21600,
+                "timeoriginalestimate": 28800,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -9737,8 +9691,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -9748,6 +9701,8 @@
             "key": "OBPP-3907",
             "fields": {
                 "summary": "Layout Builder - Custom Field Adding - P1",
+                "timespent": 0,
+                "timeoriginalestimate": 140400,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -9774,8 +9729,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 140400
+                }
             }
         },
         {
@@ -9785,6 +9739,8 @@
             "key": "OBPP-4219",
             "fields": {
                 "summary": "Test Design ",
+                "timespent": 26400,
+                "timeoriginalestimate": 43200,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -9927,8 +9883,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 43200
+                }
             }
         },
         {
@@ -9938,6 +9893,8 @@
             "key": "OBPP-4368",
             "fields": {
                 "summary": "Create basic reusable custom form elements creator component",
+                "timespent": 28800,
+                "timeoriginalestimate": 28800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
                     "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
@@ -10004,8 +9961,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -10015,6 +9971,8 @@
             "key": "OBPP-4430",
             "fields": {
                 "summary": "Adding common field types for the created reusable component",
+                "timespent": 28800,
+                "timeoriginalestimate": 28800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
                     "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
@@ -10081,8 +10039,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -10092,6 +10049,8 @@
             "key": "OBPP-4431",
             "fields": {
                 "summary": "developer testing ",
+                "timespent": 10800,
+                "timeoriginalestimate": 10800,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -10157,8 +10116,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 10800
+                }
             }
         },
         {
@@ -10168,6 +10126,8 @@
             "key": "OBPP-4438",
             "fields": {
                 "summary": "Backend implementation for saving dynamic fields ",
+                "timespent": 28800,
+                "timeoriginalestimate": 28800,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -10234,8 +10194,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -10245,6 +10204,8 @@
             "key": "OBPP-4250",
             "fields": {
                 "summary": "Workflow - Quick Action Button - Comment",
+                "timespent": null,
+                "timeoriginalestimate": 79200,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -10271,8 +10232,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 79200
+                }
             }
         },
         {
@@ -10282,6 +10242,8 @@
             "key": "OBPP-4259",
             "fields": {
                 "summary": "UI changes regarding the comment interface",
+                "timespent": 39600,
+                "timeoriginalestimate": 43200,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=636c8715c383ad842146a6d2",
                     "accountId": "636c8715c383ad842146a6d2",
@@ -10386,8 +10348,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 43200
+                }
             }
         },
         {
@@ -10397,6 +10358,8 @@
             "key": "OBPP-4288",
             "fields": {
                 "summary": "Mind map - Workflow - Quick Action Button - Comment",
+                "timespent": 10800,
+                "timeoriginalestimate": 14400,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aa2a5de2c-890e-4df5-9ace-46c8bda807ea",
                     "accountId": "712020:a2a5de2c-890e-4df5-9ace-46c8bda807ea",
@@ -10462,8 +10425,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 14400
+                }
             }
         },
         {
@@ -10473,6 +10435,8 @@
             "key": "OBPP-4301",
             "fields": {
                 "summary": "Test Design - Workflow - Quick Action Button - Comment",
+                "timespent": 7200,
+                "timeoriginalestimate": 21600,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -10538,8 +10502,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 21600
+                }
             }
         },
         {
@@ -10549,6 +10512,8 @@
             "key": "OBPP-4254",
             "fields": {
                 "summary": "Workflow - Quick Action Button - Revert",
+                "timespent": null,
+                "timeoriginalestimate": 100800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -10575,8 +10540,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 100800
+                }
             }
         },
         {
@@ -10586,6 +10550,8 @@
             "key": "OBPP-4293",
             "fields": {
                 "summary": "Mind map - Workflow - Quick Action Button - Revert",
+                "timespent": 7200,
+                "timeoriginalestimate": 14400,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aa2a5de2c-890e-4df5-9ace-46c8bda807ea",
                     "accountId": "712020:a2a5de2c-890e-4df5-9ace-46c8bda807ea",
@@ -10651,8 +10617,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 14400
+                }
             }
         },
         {
@@ -10662,6 +10627,8 @@
             "key": "OBPP-4264",
             "fields": {
                 "summary": "Front end implimentation ",
+                "timespent": 28800,
+                "timeoriginalestimate": 28800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63ce51fd16dfc2b1fbc9cd83",
                     "accountId": "63ce51fd16dfc2b1fbc9cd83",
@@ -10804,8 +10771,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -10815,6 +10781,8 @@
             "key": "OBPP-4265",
             "fields": {
                 "summary": "Backend implementation",
+                "timespent": 43200,
+                "timeoriginalestimate": 28800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63ce51fd16dfc2b1fbc9cd83",
                     "accountId": "63ce51fd16dfc2b1fbc9cd83",
@@ -10957,8 +10925,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -10968,6 +10935,8 @@
             "key": "OBPP-4457",
             "fields": {
                 "summary": "Test Design - Workflow - Quick Action Button - Revert",
+                "timespent": 14400,
+                "timeoriginalestimate": 28800,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -11033,8 +11002,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -11044,6 +11012,8 @@
             "key": "OBPP-3878",
             "fields": {
                 "summary": "Workflow - New Toggle Introduction for Approvers - Record Level",
+                "timespent": null,
+                "timeoriginalestimate": 43200,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -11070,8 +11040,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 43200
+                }
             }
         },
         {
@@ -11081,6 +11050,8 @@
             "key": "OBPP-3903",
             "fields": {
                 "summary": "Add new field for DB to save new toggel data",
+                "timespent": 7200,
+                "timeoriginalestimate": 7200,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63ce51fd16dfc2b1fbc9cd83",
                     "accountId": "63ce51fd16dfc2b1fbc9cd83",
@@ -11146,8 +11117,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 7200
+                }
             }
         },
         {
@@ -11157,6 +11127,8 @@
             "key": "OBPP-3922",
             "fields": {
                 "summary": "Test Design - Workflow - New Toggle Introduction for Approvers - Record Level",
+                "timespent": 28800,
+                "timeoriginalestimate": 28800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aa2a5de2c-890e-4df5-9ace-46c8bda807ea",
                     "accountId": "712020:a2a5de2c-890e-4df5-9ace-46c8bda807ea",
@@ -11298,8 +11270,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -11309,6 +11280,8 @@
             "key": "OBPP-4151",
             "fields": {
                 "summary": "Mind map - Workflow - New Toggle Introduction for Approvers - Record Level",
+                "timespent": 14400,
+                "timeoriginalestimate": 14400,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -11450,8 +11423,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 14400
+                }
             }
         },
         {
@@ -11461,6 +11433,8 @@
             "key": "OBPP-4213",
             "fields": {
                 "summary": "Get status with the under review status for list view",
+                "timespent": null,
+                "timeoriginalestimate": null,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63ce51fd16dfc2b1fbc9cd83",
                     "accountId": "63ce51fd16dfc2b1fbc9cd83",
@@ -11487,8 +11461,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -11498,6 +11471,8 @@
             "key": "OBPP-4257",
             "fields": {
                 "summary": "Get status with the under review status for view page",
+                "timespent": null,
+                "timeoriginalestimate": null,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63ce51fd16dfc2b1fbc9cd83",
                     "accountId": "63ce51fd16dfc2b1fbc9cd83",
@@ -11524,8 +11499,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -11535,6 +11509,8 @@
             "key": "OBPP-4285",
             "fields": {
                 "summary": "Save under review toggle changes",
+                "timespent": null,
+                "timeoriginalestimate": null,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63ce51fd16dfc2b1fbc9cd83",
                     "accountId": "63ce51fd16dfc2b1fbc9cd83",
@@ -11561,8 +11537,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -11572,6 +11547,8 @@
             "key": "OBPP-3881",
             "fields": {
                 "summary": "Workflow Status Category - Success and Failure ",
+                "timespent": 14400,
+                "timeoriginalestimate": 64800,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -11637,8 +11614,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 64800
+                }
             }
         },
         {
@@ -11648,6 +11624,8 @@
             "key": "OBPP-3902",
             "fields": {
                 "summary": "Add new two status as success and fail completion for workflow status",
+                "timespent": 18000,
+                "timeoriginalestimate": 21600,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63ce51fd16dfc2b1fbc9cd83",
                     "accountId": "63ce51fd16dfc2b1fbc9cd83",
@@ -11713,8 +11691,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 21600
+                }
             }
         },
         {
@@ -11724,6 +11701,8 @@
             "key": "OBPP-3925",
             "fields": {
                 "summary": "Test Design - Workflow Status Category - Success and Failure ",
+                "timespent": 28800,
+                "timeoriginalestimate": 28800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63a9ae2f159df2c252e70994",
                     "accountId": "63a9ae2f159df2c252e70994",
@@ -11865,8 +11844,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -11876,6 +11854,8 @@
             "key": "OBPP-3926",
             "fields": {
                 "summary": "Mind map - Workflow Status Category - Success and Failure ",
+                "timespent": 14400,
+                "timeoriginalestimate": 14400,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aa2a5de2c-890e-4df5-9ace-46c8bda807ea",
                     "accountId": "712020:a2a5de2c-890e-4df5-9ace-46c8bda807ea",
@@ -11979,8 +11959,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 14400
+                }
             }
         },
         {
@@ -11990,6 +11969,8 @@
             "key": "OBPP-3899",
             "fields": {
                 "summary": "Workflow Approval Centralized Screen - Multiple Action Handling",
+                "timespent": null,
+                "timeoriginalestimate": 118800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -12016,8 +11997,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 118800
+                }
             }
         },
         {
@@ -12027,6 +12007,8 @@
             "key": "OBPP-3929",
             "fields": {
                 "summary": "Back end implementation related to multiple action handling",
+                "timespent": 43200,
+                "timeoriginalestimate": 28800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=636c8715c383ad842146a6d2",
                     "accountId": "636c8715c383ad842146a6d2",
@@ -12131,8 +12113,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -12142,6 +12123,8 @@
             "key": "OBPP-3930",
             "fields": {
                 "summary": "Front end implimentation related to multiple action handling",
+                "timespent": null,
+                "timeoriginalestimate": 28800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=636c8715c383ad842146a6d2",
                     "accountId": "636c8715c383ad842146a6d2",
@@ -12168,8 +12151,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -12179,6 +12161,8 @@
             "key": "OBPP-4214",
             "fields": {
                 "summary": "Test Design - Workflow Approval Centralized Screen - Multiple Action Handling",
+                "timespent": 25200,
+                "timeoriginalestimate": 43200,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63a9ae2f159df2c252e70994",
                     "accountId": "63a9ae2f159df2c252e70994",
@@ -12282,8 +12266,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 43200
+                }
             }
         },
         {
@@ -12293,6 +12276,8 @@
             "key": "OBPP-4215",
             "fields": {
                 "summary": "Mind map - Workflow Approval Centralized Screen - Multiple Action Handling",
+                "timespent": 12600,
+                "timeoriginalestimate": 18000,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63a9ae2f159df2c252e70994",
                     "accountId": "63a9ae2f159df2c252e70994",
@@ -12396,8 +12381,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 18000
+                }
             }
         },
         {
@@ -12407,6 +12391,8 @@
             "key": "OBPP-3811",
             "fields": {
                 "summary": "Search functionality is not working within the column selection feature and Sort by feature in payroll management module (Payroll Management, LND, Appraisal, Competency, Recruitment ,Configuration)",
+                "timespent": 61200,
+                "timeoriginalestimate": null,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A45195415-fda9-488c-8f60-e8df44213db9",
                     "accountId": "712020:45195415-fda9-488c-8f60-e8df44213db9",
@@ -12588,8 +12574,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -12599,6 +12584,8 @@
             "key": "OBPP-3986",
             "fields": {
                 "summary": "Implementation of Search Bar to Dropdowns - Entire System",
+                "timespent": null,
+                "timeoriginalestimate": 244800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
                     "accountId": "6389c69ef6c85b343c0c1d53",
@@ -12625,8 +12612,7 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                },
-                "timeoriginalestimate": 244800
+                }
             }
         },
         {
@@ -12636,6 +12622,8 @@
             "key": "OBPP-4015",
             "fields": {
                 "summary": "Find a one dropdown section, analyze the implementation ",
+                "timespent": 28800,
+                "timeoriginalestimate": 25200,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -12741,8 +12729,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 25200
+                }
             }
         },
         {
@@ -12752,6 +12739,8 @@
             "key": "OBPP-4065",
             "fields": {
                 "summary": "Implement shared common component for as searchable dropdown",
+                "timespent": 18000,
+                "timeoriginalestimate": 18000,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
                     "accountId": "6389c69ef6c85b343c0c1d53",
@@ -12818,8 +12807,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 18000
+                }
             }
         },
         {
@@ -12829,6 +12817,8 @@
             "key": "OBPP-4066",
             "fields": {
                 "summary": "Integrate shared searchable dropdown for existing dropdowns ",
+                "timespent": 46800,
+                "timeoriginalestimate": 50400,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
                     "accountId": "6389c69ef6c85b343c0c1d53",
@@ -12934,8 +12924,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 50400
+                }
             }
         },
         {
@@ -12945,6 +12934,8 @@
             "key": "OBPP-4194",
             "fields": {
                 "summary": "Documentation about applying dropdown ",
+                "timespent": 7200,
+                "timeoriginalestimate": 7200,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -13011,8 +13002,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 7200
+                }
             }
         },
         {
@@ -13022,6 +13012,8 @@
             "key": "OBPP-4286",
             "fields": {
                 "summary": "Create searchable dropdown without using external packages",
+                "timespent": 57600,
+                "timeoriginalestimate": 57600,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
                     "accountId": "6389c69ef6c85b343c0c1d53",
@@ -13088,8 +13080,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 57600
+                }
             }
         },
         {
@@ -13099,6 +13090,8 @@
             "key": "OBPP-4553",
             "fields": {
                 "summary": "Test design",
+                "timespent": 26100,
+                "timeoriginalestimate": 43200,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -13165,8 +13158,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 43200
+                }
             }
         },
         {
@@ -13176,6 +13168,8 @@
             "key": "OBPP-4559",
             "fields": {
                 "summary": "Space character not allowed in dropdown search input",
+                "timespent": 8700,
+                "timeoriginalestimate": 7200,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -13281,8 +13275,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 7200
+                }
             }
         },
         {
@@ -13292,6 +13285,8 @@
             "key": "OBPP-4560",
             "fields": {
                 "summary": "Dropdown feature not implemented or not working properly on some pages ",
+                "timespent": 10800,
+                "timeoriginalestimate": 7200,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -13435,8 +13430,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 7200
+                }
             }
         },
         {
@@ -13446,6 +13440,8 @@
             "key": "OBPP-4574",
             "fields": {
                 "summary": "Missing clear/reset option in the dropdown component.",
+                "timespent": 11400,
+                "timeoriginalestimate": null,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
                     "accountId": "6389c69ef6c85b343c0c1d53",
@@ -13550,8 +13546,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -13561,6 +13556,8 @@
             "key": "OBPP-4036",
             "fields": {
                 "summary": "Refactoring FE/BE Endpoints",
+                "timespent": null,
+                "timeoriginalestimate": 97200,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
                     "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
@@ -13587,8 +13584,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 97200
+                }
             }
         },
         {
@@ -13598,6 +13594,8 @@
             "key": "OBPP-4037",
             "fields": {
                 "summary": "Currency",
+                "timespent": 14400,
+                "timeoriginalestimate": 14400,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
                     "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
@@ -13663,8 +13661,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 14400
+                }
             }
         },
         {
@@ -13674,6 +13671,8 @@
             "key": "OBPP-4072",
             "fields": {
                 "summary": "User Initiated Actions",
+                "timespent": 10800,
+                "timeoriginalestimate": 10800,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -13739,8 +13738,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 10800
+                }
             }
         },
         {
@@ -13750,6 +13748,8 @@
             "key": "OBPP-4077",
             "fields": {
                 "summary": "Email Notifications",
+                "timespent": 21600,
+                "timeoriginalestimate": 28800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
                     "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
@@ -13815,8 +13815,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -13826,6 +13825,8 @@
             "key": "OBPP-4126",
             "fields": {
                 "summary": "IDP Password",
+                "timespent": 21600,
+                "timeoriginalestimate": 14400,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
                     "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
@@ -13891,8 +13892,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 14400
+                }
             }
         },
         {
@@ -13902,6 +13902,8 @@
             "key": "OBPP-4147",
             "fields": {
                 "summary": "Object Storage",
+                "timespent": 43200,
+                "timeoriginalestimate": 28800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
                     "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
@@ -13967,8 +13969,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -13978,6 +13979,8 @@
             "key": "OBPP-4271",
             "fields": {
                 "summary": "Regression Testing - Document creation ",
+                "timespent": 27120,
+                "timeoriginalestimate": 43200,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -14082,8 +14085,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 43200
+                }
             }
         },
         {
@@ -14093,6 +14095,8 @@
             "key": "OBPP-4587",
             "fields": {
                 "summary": "Pre prod PMO feature breaks due to user profile data issue",
+                "timespent": 7200,
+                "timeoriginalestimate": 7200,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aa8844cd7-bfc0-45eb-b27a-45ade0c6d6dd",
                     "accountId": "712020:a8844cd7-bfc0-45eb-b27a-45ade0c6d6dd",
@@ -14144,10 +14148,10 @@
                             },
                             "comment": "Investigate the issue, and the reason for create two recodes in the user profile table, and manually correct the table data ",
                             "created": "2025-06-17T07:43:44.731+0400",
-                            "updated": "2025-06-17T20:54:24.077+0400",
-                            "started": "2025-06-17T05:42:56.989+0400",
-                            "timeSpent": "3h",
-                            "timeSpentSeconds": 10800,
+                            "updated": "2025-06-18T08:50:52.395+0400",
+                            "started": "2025-06-17T14:00:00.000+0400",
+                            "timeSpent": "2h",
+                            "timeSpentSeconds": 7200,
                             "id": "88423",
                             "issueId": "107475"
                         }
@@ -14159,8 +14163,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 10800
+                }
             }
         },
         {
@@ -14170,6 +14173,8 @@
             "key": "OBPP-4207",
             "fields": {
                 "summary": "Idle Connections Not Disposing Properly, Leading to Resource Leaks",
+                "timespent": 7200,
+                "timeoriginalestimate": 28800,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -14236,8 +14241,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -14247,6 +14251,8 @@
             "key": "OBPP-4290",
             "fields": {
                 "summary": "Save Button Not Visible After Changing the Language.",
+                "timespent": 3600,
+                "timeoriginalestimate": 3600,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A45195415-fda9-488c-8f60-e8df44213db9",
                     "accountId": "712020:45195415-fda9-488c-8f60-e8df44213db9",
@@ -14312,8 +14318,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 3600
+                }
             }
         },
         {
@@ -14323,6 +14328,8 @@
             "key": "OBPP-3987",
             "fields": {
                 "summary": "R n D - Integration Testing - API Related",
+                "timespent": null,
+                "timeoriginalestimate": 0,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -14349,8 +14356,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 0
+                }
             }
         },
         {
@@ -14360,6 +14366,8 @@
             "key": "OBPP-4079",
             "fields": {
                 "summary": "Integration testing R&D",
+                "timespent": 28800,
+                "timeoriginalestimate": 28800,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -14426,8 +14434,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -14437,6 +14444,8 @@
             "key": "OBPP-4080",
             "fields": {
                 "summary": "Integration testing implementation ",
+                "timespent": 57600,
+                "timeoriginalestimate": 57600,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -14502,8 +14511,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 57600
+                }
             }
         },
         {
@@ -14513,6 +14521,8 @@
             "key": "OBPP-4577",
             "fields": {
                 "summary": "User onboard progress bar issue",
+                "timespent": 10800,
+                "timeoriginalestimate": 10800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
                     "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
@@ -14579,8 +14589,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 10800
+                }
             }
         },
         {
@@ -14590,6 +14599,8 @@
             "key": "OBPP-3983",
             "fields": {
                 "summary": "BE - Refactoring",
+                "timespent": 0,
+                "timeoriginalestimate": 108000,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=636c8715c383ad842146a6d2",
                     "accountId": "636c8715c383ad842146a6d2",
@@ -14616,8 +14627,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 108000
+                }
             }
         },
         {
@@ -14627,6 +14637,8 @@
             "key": "OBPP-3984",
             "fields": {
                 "summary": "Calendar endpoint refactor",
+                "timespent": 32400,
+                "timeoriginalestimate": 28800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=636c8715c383ad842146a6d2",
                     "accountId": "636c8715c383ad842146a6d2",
@@ -14730,8 +14742,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -14741,6 +14752,8 @@
             "key": "OBPP-4067",
             "fields": {
                 "summary": "Workflow Action Type refactor",
+                "timespent": 10800,
+                "timeoriginalestimate": 10800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=636c8715c383ad842146a6d2",
                     "accountId": "636c8715c383ad842146a6d2",
@@ -14806,8 +14819,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 10800
+                }
             }
         },
         {
@@ -14817,6 +14829,8 @@
             "key": "OBPP-4068",
             "fields": {
                 "summary": "Workflow Permission Refactor",
+                "timespent": 10800,
+                "timeoriginalestimate": 10800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=636c8715c383ad842146a6d2",
                     "accountId": "636c8715c383ad842146a6d2",
@@ -14882,8 +14896,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 10800
+                }
             }
         },
         {
@@ -14893,6 +14906,8 @@
             "key": "OBPP-4069",
             "fields": {
                 "summary": "System Notification Refactor",
+                "timespent": 28800,
+                "timeoriginalestimate": 28800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=636c8715c383ad842146a6d2",
                     "accountId": "636c8715c383ad842146a6d2",
@@ -14958,8 +14973,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 28800
+                }
             }
         },
         {
@@ -14969,6 +14983,8 @@
             "key": "OBPP-4075",
             "fields": {
                 "summary": "Document Type refactor",
+                "timespent": null,
+                "timeoriginalestimate": null,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63ce51fd16dfc2b1fbc9cd83",
                     "accountId": "63ce51fd16dfc2b1fbc9cd83",
@@ -14995,8 +15011,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -15006,6 +15021,8 @@
             "key": "OBPP-4076",
             "fields": {
                 "summary": "User column selection refactor",
+                "timespent": 7200,
+                "timeoriginalestimate": 14400,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=636c8715c383ad842146a6d2",
                     "accountId": "636c8715c383ad842146a6d2",
@@ -15071,8 +15088,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 14400
+                }
             }
         },
         {
@@ -15082,6 +15098,8 @@
             "key": "OBPP-4078",
             "fields": {
                 "summary": "Comment refactor",
+                "timespent": null,
+                "timeoriginalestimate": null,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63ce51fd16dfc2b1fbc9cd83",
                     "accountId": "63ce51fd16dfc2b1fbc9cd83",
@@ -15108,8 +15126,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -15119,6 +15136,8 @@
             "key": "OBPP-4139",
             "fields": {
                 "summary": "Email template migration",
+                "timespent": 28800,
+                "timeoriginalestimate": 14400,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -15222,8 +15241,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 14400
+                }
             }
         },
         {
@@ -15233,6 +15251,8 @@
             "key": "OBPP-4173",
             "fields": {
                 "summary": "Default terms migration",
+                "timespent": null,
+                "timeoriginalestimate": null,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63ce51fd16dfc2b1fbc9cd83",
                     "accountId": "63ce51fd16dfc2b1fbc9cd83",
@@ -15259,8 +15279,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -15270,6 +15289,8 @@
             "key": "OBPP-4578",
             "fields": {
                 "summary": "Pre prod notification project issue tracking ",
+                "timespent": 7200,
+                "timeoriginalestimate": 10800,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -15336,8 +15357,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 10800
+                }
             }
         },
         {
@@ -15347,6 +15367,8 @@
             "key": "OBPP-3872",
             "fields": {
                 "summary": "Data Set - Custom Data Set - Add view ",
+                "timespent": null,
+                "timeoriginalestimate": 68400,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
                     "accountId": "6389c69ef6c85b343c0c1d53",
@@ -15373,8 +15395,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 68400
+                }
             }
         },
         {
@@ -15384,6 +15405,8 @@
             "key": "OBPP-3898",
             "fields": {
                 "summary": "Discussions",
+                "timespent": 10800,
+                "timeoriginalestimate": 10800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
                     "accountId": "6389c69ef6c85b343c0c1d53",
@@ -15450,8 +15473,7 @@
                     "key": "done",
                     "colorName": "green",
                     "name": "Done"
-                },
-                "timeoriginalestimate": 10800
+                }
             }
         },
         {
@@ -15461,6 +15483,8 @@
             "key": "OBPP-3868",
             "fields": {
                 "summary": "OR Condition Automatically Converts to AND in Workflow Transition",
+                "timespent": 7200,
+                "timeoriginalestimate": 10800,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
@@ -15526,8 +15550,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 10800
+                }
             }
         },
         {
@@ -15537,6 +15560,8 @@
             "key": "OBPP-4035",
             "fields": {
                 "summary": "User onboarding process not working",
+                "timespent": 10800,
+                "timeoriginalestimate": null,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -15718,8 +15743,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -15729,6 +15753,8 @@
             "key": "OBPP-4580",
             "fields": {
                 "summary": "User onboard progress bar issue",
+                "timespent": 14400,
+                "timeoriginalestimate": 14400,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -15834,8 +15860,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": 14400
+                }
             }
         },
         {
@@ -15845,6 +15870,8 @@
             "key": "OBPP-4557",
             "fields": {
                 "summary": "Test Cases - Implementation of Search Bar to Dropdowns - Entire System",
+                "timespent": null,
+                "timeoriginalestimate": null,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -15871,8 +15898,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -15882,6 +15908,8 @@
             "key": "OBPP-4558",
             "fields": {
                 "summary": "Test Executions - Implementation of Search Bar to Dropdowns - Entire System",
+                "timespent": null,
+                "timeoriginalestimate": null,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                     "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -15908,8 +15936,7 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
-                },
-                "timeoriginalestimate": null
+                }
             }
         },
         {
@@ -15919,10 +15946,26 @@
             "key": "OBPP-4601",
             "fields": {
                 "summary": "Menus not loading for Newly created Super Admin Accounts",
+                "timespent": 9900,
+                "timeoriginalestimate": 7200,
+                "assignee": {
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
+                    "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
+                    },
+                    "displayName": "Madushan Wijesuriya",
+                    "active": true,
+                    "timeZone": "Asia/Dubai",
+                    "accountType": "atlassian"
+                },
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
-                    "total": 1,
+                    "total": 2,
                     "worklogs": [
                         {
                             "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107735/worklog/88641",
@@ -15962,9 +16005,66 @@
                             "timeSpentSeconds": 7200,
                             "id": "88641",
                             "issueId": "107735"
+                        },
+                        {
+                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107735/worklog/88707",
+                            "author": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
+                                "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
+                                },
+                                "displayName": "Madushan Wijesuriya",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "updateAuthor": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
+                                "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
+                                },
+                                "displayName": "Madushan Wijesuriya",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "comment": "verified the change with Amindu",
+                            "created": "2025-06-18T09:03:48.004+0400",
+                            "updated": "2025-06-18T09:03:48.004+0400",
+                            "started": "2025-06-18T09:00:00.000+0400",
+                            "timeSpent": "45m",
+                            "timeSpentSeconds": 2700,
+                            "id": "88707",
+                            "issueId": "107735"
                         }
                     ]
                 },
+                "statusCategory": {
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/2",
+                    "id": 2,
+                    "key": "new",
+                    "colorName": "blue-gray",
+                    "name": "To Do"
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "107822",
+            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/107822",
+            "key": "OBPP-4604",
+            "fields": {
+                "summary": "Prepod: Able to delete a company that is already assigned to users and roles",
+                "timespent": 6300,
+                "timeoriginalestimate": null,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
                     "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
@@ -15979,23 +16079,109 @@
                     "timeZone": "Asia/Dubai",
                     "accountType": "atlassian"
                 },
-                "statusCategory": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/2",
-                    "id": 2,
-                    "key": "new",
-                    "colorName": "blue-gray",
-                    "name": "To Do"
+                "worklog": {
+                    "startAt": 0,
+                    "maxResults": 20,
+                    "total": 2,
+                    "worklogs": [
+                        {
+                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107822/worklog/88709",
+                            "author": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
+                                "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
+                                },
+                                "displayName": "Madushan Wijesuriya",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "updateAuthor": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
+                                "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
+                                },
+                                "displayName": "Madushan Wijesuriya",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "comment": "DSM",
+                            "created": "2025-06-18T09:17:46.558+0400",
+                            "updated": "2025-06-18T09:17:46.558+0400",
+                            "started": "2025-06-18T09:45:00.000+0400",
+                            "timeSpent": "1h",
+                            "timeSpentSeconds": 3600,
+                            "id": "88709",
+                            "issueId": "107822"
+                        },
+                        {
+                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107822/worklog/88718",
+                            "author": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
+                                "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
+                                },
+                                "displayName": "Madushan Wijesuriya",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "updateAuthor": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
+                                "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
+                                },
+                                "displayName": "Madushan Wijesuriya",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "comment": "Discussion with Gayas on release",
+                            "created": "2025-06-18T10:09:55.588+0400",
+                            "updated": "2025-06-18T10:09:55.588+0400",
+                            "started": "2025-06-18T22:48:00.000+0400",
+                            "timeSpent": "45m",
+                            "timeSpentSeconds": 2700,
+                            "id": "88718",
+                            "issueId": "107822"
+                        }
+                    ]
                 },
-                "timeoriginalestimate": 7200
+                "statusCategory": {
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/4",
+                    "id": 4,
+                    "key": "indeterminate",
+                    "colorName": "yellow",
+                    "name": "In Progress"
+                }
             }
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
-            "id": "107822",
-            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/107822",
-            "key": "OBPP-4604",
+            "id": "107881",
+            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/107881",
+            "key": "OBPP-4605",
             "fields": {
-                "summary": "Prepod: Able to delete a company that is already assigned to users and roles",
+                "summary": "Prepod: Internal server error with unclear red tag in Segment module",
+                "timespent": null,
+                "timeoriginalestimate": null,
                 "assignee": null,
                 "worklog": {
                     "startAt": 0,
@@ -16009,8 +16195,46 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "107883",
+            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/107883",
+            "key": "OBPP-4607",
+            "fields": {
+                "summary": "Company dropdown data and Company page data mismatch available",
+                "timespent": null,
+                "timeoriginalestimate": null,
+                "worklog": {
+                    "startAt": 0,
+                    "maxResults": 20,
+                    "total": 0,
+                    "worklogs": []
                 },
-                "timeoriginalestimate": null
+                "assignee": {
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=642a51e81993b61a5309aa75",
+                    "accountId": "642a51e81993b61a5309aa75",
+                    "emailAddress": "radhakrishnan.mayuran@osos.om",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/f40d254cbc28801f73bca154f573659a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-3.png",
+                        "24x24": "https://secure.gravatar.com/avatar/f40d254cbc28801f73bca154f573659a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-3.png",
+                        "16x16": "https://secure.gravatar.com/avatar/f40d254cbc28801f73bca154f573659a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-3.png",
+                        "32x32": "https://secure.gravatar.com/avatar/f40d254cbc28801f73bca154f573659a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-3.png"
+                    },
+                    "displayName": "Radhakrishnan Mayuran",
+                    "active": true,
+                    "timeZone": "Asia/Dubai",
+                    "accountType": "atlassian"
+                },
+                "statusCategory": {
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/2",
+                    "id": 2,
+                    "key": "new",
+                    "colorName": "blue-gray",
+                    "name": "To Do"
+                }
             }
         }
     ]

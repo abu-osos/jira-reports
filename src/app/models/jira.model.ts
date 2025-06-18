@@ -18,6 +18,7 @@ export interface Field {
     worklog: Worklog;
     summary: string;
     timeoriginalestimate: number;
+    timespent: number;
 }
 
 export interface Worklog {
