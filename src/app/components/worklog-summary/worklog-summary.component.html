@@ -17,7 +17,7 @@
     }
   } @else if (viewMode === 'date') {
     @for (entry of worklogsByDate; track entry[0]; let i = $index) {
-      <h3 class="date-title">{{ entry[0] | date:'dd/MM/yyyy, EEEE' }}</h3>
+      <h3 class="date-title" [class.red]="hasDailyIssues(entry[1])">{{ entry[0] | date:'dd/MM/yyyy, EEEE' }}</h3>
       @for (worklog of entry[1]; track $index) {
         <label class="bold" [for]="'date-worklog-' + i + '-' + $index">{{ worklog.issueKey }}: {{ worklog.timeSpentSeconds | toHhMm }}</label>
         <input type="checkbox" [id]="'date-worklog-' + i + '-' + $index" class="worklog-toggle">

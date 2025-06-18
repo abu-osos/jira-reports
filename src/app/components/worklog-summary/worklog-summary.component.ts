@@ -20,6 +20,7 @@ interface DateViewWorklog {
   started: Date;
   timeSpentSeconds: number;
   comment?: string;
+  timespent: number;
 }
 
 @Component({
@@ -77,6 +78,7 @@ export class WorklogSummaryComponent implements OnInit {
           started: new Date(worklog.started),
           timeSpentSeconds: worklog.timeSpentSeconds,
           comment: worklog.comment,
+          timespent: issue.fields.timespent,
         });
       });
     });
@@ -111,5 +113,10 @@ export class WorklogSummaryComponent implements OnInit {
       return true;
     }
     return false;
+  }
+
+  hasDailyIssues(worklogs: DateViewWorklog[]): boolean {
+    const totalTimeSpent = worklogs.reduce((acc, worklog) => acc + worklog.timespent, 0);
+    return totalTimeSpent !== 8 * 60 * 60;
   }
 }
