@@ -1,10 +1,28 @@
 <h2 mat-dialog-title>{{ data.user }}</h2>
 <mat-dialog-content>
+  <mat-button-toggle-group [(ngModel)]="viewMode" aria-label="View Mode">
+    <mat-button-toggle value="issue">Issue View</mat-button-toggle>
+    <mat-button-toggle value="date">Date View</mat-button-toggle>
+  </mat-button-toggle-group>
+
+  @if (viewMode === 'issue') {
     @for (issue of data.issues; track $index) {
-        <p class="issue-title">{{ $index + 1 }}. {{ issue.key }} - {{ issue.fields.summary }}</p>
+        <p class="issue-title">{{ $index + 1 }}. {{ issue.key }} - {{ issue.fields.summary }} - {{ issue.fields.timeoriginalestimate | toHhMm }} </p>
         @for (worklog of worklogByUser(issue.id); track $index) {
             <p class="worklog-date">{{ worklog.started | date:'dd/MM/yyyy, EEEE' }} - {{ worklog.timeSpentSeconds | toHhMm }}</p>
             <div [innerHTML]="worklog.comment | formatComment"></div>
         }
     }
+  } @else if (viewMode === 'date') {
+    @for (entry of worklogsByDate; track entry[0]) {
+      <h3 class="issue-title">{{ entry[0] | date:'dd/MM/yyyy, EEEE' }}</h3>
+      @for (worklog of entry[1]; track $index) {
+        <p class="bold">{{ worklog.issueKey }} - {{ worklog.issueSummary }}</p>
+        <p class="worklog-date">{{ worklog.timeSpentSeconds | toHhMm }}</p>
+        @if (worklog.comment) {
+          <div [innerHTML]="worklog.comment | formatComment"></div>
+        }
+      }
+    }
+  }
 </mat-dialog-content>

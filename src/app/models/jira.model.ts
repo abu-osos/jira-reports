@@ -17,6 +17,7 @@ export interface Field {
     assignee: Assignee;
     worklog: Worklog;
     summary: string;
+    timeoriginalestimate: number;
 }
 
 export interface Worklog {
