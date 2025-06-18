@@ -52,6 +52,8 @@ export class JiraContainerComponent {
 
   onView(user: string) {
     this.dialog.open(WorklogSummaryComponent, {
+      width: '90vw',
+      maxWidth: '90vw',
       data: {
         user,
         issues: this.getIssuesByUser(user),

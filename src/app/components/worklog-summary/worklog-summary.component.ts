@@ -6,6 +6,7 @@ import { ToHhMmPipe } from '../../pipes/to-hh-mm.pipe';
 import { FormatCommentPipe } from '../../pipes/format-comment.pipe';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { FormsModule } from '@angular/forms';
+import { MatButtonModule } from '@angular/material/button';
 
 interface DialogData {
   user: string;
@@ -31,6 +32,7 @@ interface DateViewWorklog {
     FormatCommentPipe,
     MatButtonToggleModule,
     FormsModule,
+    MatButtonModule,
   ],
   templateUrl: './worklog-summary.component.html',
   styleUrl: './worklog-summary.component.scss',

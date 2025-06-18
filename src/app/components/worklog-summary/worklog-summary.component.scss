@@ -7,8 +7,45 @@
 .worklog-date {
     font-size: 0.8rem;
     color: #0C66E4;
+    cursor: pointer;
+}
+
+.worklog-toggle {
+    display: none;
+}
+
+.worklog-comment {
+    display: none;
+}
+
+.worklog-toggle:checked + .worklog-comment {
+    display: block;
+}
+
+.worklog-details {
+    display: none;
+}
+
+.worklog-toggle:checked + .worklog-details {
+    display: block;
 }
 
 .bold {
     font-weight: bold;
+    cursor: pointer;
 }
+
+.view-mode-toggle {
+    margin-bottom: 1rem;
+    
+    .mat-button-toggle {
+      border: 1px solid #0C66E4;
+      background-color: transparent;
+      color: #0C66E4;
+
+      &.mat-button-toggle-checked {
+        background-color: #0C66E4;
+        color: white;
+      }
+    }
+  }
