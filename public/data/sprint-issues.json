@@ -2,7 +2,7 @@
     "expand": "schema,names",
     "startAt": 0,
     "maxResults": 1000,
-    "total": 185,
+    "total": 178,
     "issues": [
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
@@ -49,12 +49,26 @@
             "key": "OBPP-4565",
             "fields": {
                 "summary": "Regression Testing for 2025/6/18th release",
-                "timespent": 180000,
+                "timespent": 216000,
                 "timeoriginalestimate": 230400,
+                "assignee": {
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
+                    "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
+                    },
+                    "displayName": "Kavinda Nishan Jayaweera",
+                    "active": true,
+                    "timeZone": "Asia/Dubai",
+                    "accountType": "atlassian"
+                },
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
-                    "total": 6,
+                    "total": 8,
                     "worklogs": [
                         {
                             "self": "https://gearsjira.atlassian.net/rest/api/2/issue/106677/worklog/87847",
@@ -283,22 +297,84 @@
                             "timeSpentSeconds": 25200,
                             "id": "88651",
                             "issueId": "106677"
+                        },
+                        {
+                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/106677/worklog/88721",
+                            "author": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aa2a5de2c-890e-4df5-9ace-46c8bda807ea",
+                                "accountId": "712020:a2a5de2c-890e-4df5-9ace-46c8bda807ea",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/976ed1c0e31c69967fec8b3934cbbf08?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FND-3.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/976ed1c0e31c69967fec8b3934cbbf08?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FND-3.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/976ed1c0e31c69967fec8b3934cbbf08?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FND-3.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/976ed1c0e31c69967fec8b3934cbbf08?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FND-3.png"
+                                },
+                                "displayName": "Nithmi Danushima Dedduwage",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "updateAuthor": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aa2a5de2c-890e-4df5-9ace-46c8bda807ea",
+                                "accountId": "712020:a2a5de2c-890e-4df5-9ace-46c8bda807ea",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/976ed1c0e31c69967fec8b3934cbbf08?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FND-3.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/976ed1c0e31c69967fec8b3934cbbf08?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FND-3.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/976ed1c0e31c69967fec8b3934cbbf08?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FND-3.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/976ed1c0e31c69967fec8b3934cbbf08?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FND-3.png"
+                                },
+                                "displayName": "Nithmi Danushima Dedduwage",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "created": "2025-06-18T10:31:51.894+0400",
+                            "updated": "2025-06-18T10:31:51.894+0400",
+                            "started": "2025-06-18T06:31:49.497+0400",
+                            "timeSpent": "4h",
+                            "timeSpentSeconds": 14400,
+                            "id": "88721",
+                            "issueId": "106677"
+                        },
+                        {
+                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/106677/worklog/88772",
+                            "author": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
+                                "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
+                                "avatarUrls": {
+                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
+                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
+                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
+                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
+                                },
+                                "displayName": "Kavinda Nishan Jayaweera",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "updateAuthor": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
+                                "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
+                                "avatarUrls": {
+                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
+                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
+                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
+                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
+                                },
+                                "displayName": "Kavinda Nishan Jayaweera",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "created": "2025-06-18T14:58:13.646+0400",
+                            "updated": "2025-06-18T14:58:13.646+0400",
+                            "started": "2025-06-18T08:58:09.076+0400",
+                            "timeSpent": "6h",
+                            "timeSpentSeconds": 21600,
+                            "id": "88772",
+                            "issueId": "106677"
                         }
                     ]
-                },
-                "assignee": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                    "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                    "avatarUrls": {
-                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
-                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
-                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
-                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
-                    },
-                    "displayName": "Kavinda Nishan Jayaweera",
-                    "active": true,
-                    "timeZone": "Asia/Dubai",
-                    "accountType": "atlassian"
                 },
                 "statusCategory": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/4",
@@ -1664,7 +1740,7 @@
             "key": "OBPP-4573",
             "fields": {
                 "summary": "Back end Implimentation",
-                "timespent": 50400,
+                "timespent": 64800,
                 "timeoriginalestimate": 57600,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63ce51fd16dfc2b1fbc9cd83",
@@ -1683,7 +1759,7 @@
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
-                    "total": 4,
+                    "total": 5,
                     "worklogs": [
                         {
                             "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107233/worklog/88417",
@@ -1839,6 +1915,45 @@
                             "timeSpent": "6h",
                             "timeSpentSeconds": 21600,
                             "id": "88574",
+                            "issueId": "107233"
+                        },
+                        {
+                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107233/worklog/88846",
+                            "author": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63ce51fd16dfc2b1fbc9cd83",
+                                "accountId": "63ce51fd16dfc2b1fbc9cd83",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png"
+                                },
+                                "displayName": "KH Nilanga",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "updateAuthor": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63ce51fd16dfc2b1fbc9cd83",
+                                "accountId": "63ce51fd16dfc2b1fbc9cd83",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png"
+                                },
+                                "displayName": "KH Nilanga",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "comment": "* Completed transition wise refer back process.",
+                            "created": "2025-06-18T18:57:29.748+0400",
+                            "updated": "2025-06-18T18:57:29.748+0400",
+                            "started": "2025-06-18T12:00:00.000+0400",
+                            "timeSpent": "4h",
+                            "timeSpentSeconds": 14400,
+                            "id": "88846",
                             "issueId": "107233"
                         }
                     ]
@@ -2039,11 +2154,11 @@
                     "accountType": "atlassian"
                 },
                 "statusCategory": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/4",
-                    "id": 4,
-                    "key": "indeterminate",
-                    "colorName": "yellow",
-                    "name": "In Progress"
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/3",
+                    "id": 3,
+                    "key": "done",
+                    "colorName": "green",
+                    "name": "Done"
                 }
             }
         },
@@ -2404,12 +2519,12 @@
             "key": "OBPP-4262",
             "fields": {
                 "summary": "Back end Implimentation",
-                "timespent": 25200,
+                "timespent": 39600,
                 "timeoriginalestimate": 72000,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
-                    "total": 3,
+                    "total": 5,
                     "worklogs": [
                         {
                             "self": "https://gearsjira.atlassian.net/rest/api/2/issue/101299/worklog/88415",
@@ -2526,6 +2641,84 @@
                             "timeSpent": "1h",
                             "timeSpentSeconds": 3600,
                             "id": "88429",
+                            "issueId": "101299"
+                        },
+                        {
+                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/101299/worklog/88848",
+                            "author": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63ce51fd16dfc2b1fbc9cd83",
+                                "accountId": "63ce51fd16dfc2b1fbc9cd83",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png"
+                                },
+                                "displayName": "KH Nilanga",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "updateAuthor": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63ce51fd16dfc2b1fbc9cd83",
+                                "accountId": "63ce51fd16dfc2b1fbc9cd83",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png"
+                                },
+                                "displayName": "KH Nilanga",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "comment": "* Started and implement user wise refer back process.",
+                            "created": "2025-06-18T19:02:43.351+0400",
+                            "updated": "2025-06-18T19:02:43.351+0400",
+                            "started": "2025-06-18T12:00:00.000+0400",
+                            "timeSpent": "3h 30m",
+                            "timeSpentSeconds": 12600,
+                            "id": "88848",
+                            "issueId": "101299"
+                        },
+                        {
+                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/101299/worklog/88851",
+                            "author": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63ce51fd16dfc2b1fbc9cd83",
+                                "accountId": "63ce51fd16dfc2b1fbc9cd83",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png"
+                                },
+                                "displayName": "KH Nilanga",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "updateAuthor": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=63ce51fd16dfc2b1fbc9cd83",
+                                "accountId": "63ce51fd16dfc2b1fbc9cd83",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/b9a84aa34c410c8efec1b849b1dc32f0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKN-3.png"
+                                },
+                                "displayName": "KH Nilanga",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "comment": "* Discussed and clarified some gray areas about refer back process with [~accountid:642a51e81993b61a5309aa75] ",
+                            "created": "2025-06-18T19:04:51.254+0400",
+                            "updated": "2025-06-18T19:04:51.254+0400",
+                            "started": "2025-06-18T12:00:00.000+0400",
+                            "timeSpent": "30m",
+                            "timeSpentSeconds": 1800,
+                            "id": "88851",
                             "issueId": "101299"
                         }
                     ]
@@ -4441,26 +4634,12 @@
             "key": "OBPP-4461",
             "fields": {
                 "summary": "Apply elastic search to log changes",
-                "timespent": 90000,
+                "timespent": 118800,
                 "timeoriginalestimate": 57600,
-                "assignee": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A1748e363-128d-49f0-a392-324e98a3118e",
-                    "accountId": "712020:1748e363-128d-49f0-a392-324e98a3118e",
-                    "avatarUrls": {
-                        "48x48": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png",
-                        "24x24": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png",
-                        "16x16": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png",
-                        "32x32": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png"
-                    },
-                    "displayName": "Dileepa Devnuwan",
-                    "active": true,
-                    "timeZone": "Asia/Dubai",
-                    "accountType": "atlassian"
-                },
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
-                    "total": 4,
+                    "total": 5,
                     "worklogs": [
                         {
                             "self": "https://gearsjira.atlassian.net/rest/api/2/issue/105564/worklog/87445",
@@ -4617,8 +4796,61 @@
                             "timeSpentSeconds": 28800,
                             "id": "88672",
                             "issueId": "105564"
+                        },
+                        {
+                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/105564/worklog/88872",
+                            "author": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A1748e363-128d-49f0-a392-324e98a3118e",
+                                "accountId": "712020:1748e363-128d-49f0-a392-324e98a3118e",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png"
+                                },
+                                "displayName": "Dileepa Devnuwan",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "updateAuthor": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A1748e363-128d-49f0-a392-324e98a3118e",
+                                "accountId": "712020:1748e363-128d-49f0-a392-324e98a3118e",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png"
+                                },
+                                "displayName": "Dileepa Devnuwan",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "comment": "apply elastic search inside the save changes . changed A to Z previous code and write new code for take and store history log inside the  save changes",
+                            "created": "2025-06-19T04:04:32.783+0400",
+                            "updated": "2025-06-19T04:04:32.783+0400",
+                            "started": "2025-06-18T09:00:00.000+0400",
+                            "timeSpent": "1d",
+                            "timeSpentSeconds": 28800,
+                            "id": "88872",
+                            "issueId": "105564"
                         }
                     ]
+                },
+                "assignee": {
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A1748e363-128d-49f0-a392-324e98a3118e",
+                    "accountId": "712020:1748e363-128d-49f0-a392-324e98a3118e",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png",
+                        "24x24": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png",
+                        "16x16": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png",
+                        "32x32": "https://secure.gravatar.com/avatar/60c85fff2518a4d84f725f0aec3b0671?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDD-3.png"
+                    },
+                    "displayName": "Dileepa Devnuwan",
+                    "active": true,
+                    "timeZone": "Asia/Dubai",
+                    "accountType": "atlassian"
                 },
                 "statusCategory": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/4",
@@ -4637,7 +4869,7 @@
             "fields": {
                 "summary": "Data Set - Data Source - CRUD (List, Add, View, Edit)",
                 "timespent": null,
-                "timeoriginalestimate": 266400,
+                "timeoriginalestimate": 288000,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
                     "accountId": "6389c69ef6c85b343c0c1d53",
@@ -5398,11 +5630,11 @@
                     ]
                 },
                 "statusCategory": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/4",
-                    "id": 4,
-                    "key": "indeterminate",
-                    "colorName": "yellow",
-                    "name": "In Progress"
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/3",
+                    "id": 3,
+                    "key": "done",
+                    "colorName": "green",
+                    "name": "Done"
                 }
             }
         },
@@ -5492,7 +5724,7 @@
             "fields": {
                 "summary": "Dataset - Edit mode including data source selection, query builder and preview and confirm",
                 "timespent": null,
-                "timeoriginalestimate": null,
+                "timeoriginalestimate": 46800,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
                     "accountId": "6389c69ef6c85b343c0c1d53",
@@ -5841,15 +6073,15 @@
                 "timespent": 7200,
                 "timeoriginalestimate": 10800,
                 "assignee": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aa2a5de2c-890e-4df5-9ace-46c8bda807ea",
-                    "accountId": "712020:a2a5de2c-890e-4df5-9ace-46c8bda807ea",
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
+                    "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
                     "avatarUrls": {
-                        "48x48": "https://secure.gravatar.com/avatar/976ed1c0e31c69967fec8b3934cbbf08?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FND-3.png",
-                        "24x24": "https://secure.gravatar.com/avatar/976ed1c0e31c69967fec8b3934cbbf08?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FND-3.png",
-                        "16x16": "https://secure.gravatar.com/avatar/976ed1c0e31c69967fec8b3934cbbf08?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FND-3.png",
-                        "32x32": "https://secure.gravatar.com/avatar/976ed1c0e31c69967fec8b3934cbbf08?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FND-3.png"
+                        "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                        "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                        "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                        "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
                     },
-                    "displayName": "Nithmi Danushima Dedduwage",
+                    "displayName": "Madushan Wijesuriya",
                     "active": true,
                     "timeZone": "Asia/Dubai",
                     "accountType": "atlassian"
@@ -5906,395 +6138,6 @@
                     "key": "indeterminate",
                     "colorName": "yellow",
                     "name": "In Progress"
-                }
-            }
-        },
-        {
-            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
-            "id": "107553",
-            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/107553",
-            "key": "OBPP-4595",
-            "fields": {
-                "summary": "Preprod - After adding or Editing a Navigator unexpected UI behavior occurs",
-                "timespent": 7200,
-                "timeoriginalestimate": 7200,
-                "assignee": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                    "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                    "avatarUrls": {
-                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
-                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
-                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
-                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
-                    },
-                    "displayName": "Kavinda Nishan Jayaweera",
-                    "active": true,
-                    "timeZone": "Asia/Dubai",
-                    "accountType": "atlassian"
-                },
-                "worklog": {
-                    "startAt": 0,
-                    "maxResults": 20,
-                    "total": 1,
-                    "worklogs": [
-                        {
-                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107553/worklog/88644",
-                            "author": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "avatarUrls": {
-                                    "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
-                                },
-                                "displayName": "Madushan Wijesuriya",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "updateAuthor": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "avatarUrls": {
-                                    "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
-                                },
-                                "displayName": "Madushan Wijesuriya",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "comment": "Reason - Couldn’t able to find exact reason,\nSolution - As a temp fix, did a reload when user navigate to the list page",
-                            "created": "2025-06-17T20:33:06.009+0400",
-                            "updated": "2025-06-18T08:46:39.229+0400",
-                            "started": "2025-06-17T09:00:00.000+0400",
-                            "timeSpent": "2h",
-                            "timeSpentSeconds": 7200,
-                            "id": "88644",
-                            "issueId": "107553"
-                        }
-                    ]
-                },
-                "statusCategory": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/4",
-                    "id": 4,
-                    "key": "indeterminate",
-                    "colorName": "yellow",
-                    "name": "In Progress"
-                }
-            }
-        },
-        {
-            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
-            "id": "107531",
-            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/107531",
-            "key": "OBPP-4593",
-            "fields": {
-                "summary": "Preprod - Email marked as required in user edit mode despite being an optional field",
-                "timespent": 1800,
-                "timeoriginalestimate": 1800,
-                "worklog": {
-                    "startAt": 0,
-                    "maxResults": 20,
-                    "total": 1,
-                    "worklogs": [
-                        {
-                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107531/worklog/88502",
-                            "author": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aed49adf6-16ea-4ee2-a616-1713b5511ca7",
-                                "accountId": "712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7",
-                                "avatarUrls": {
-                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/48",
-                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/24",
-                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/16",
-                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/32"
-                                },
-                                "displayName": "Keshara waidyarathna",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "updateAuthor": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aed49adf6-16ea-4ee2-a616-1713b5511ca7",
-                                "accountId": "712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7",
-                                "avatarUrls": {
-                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/48",
-                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/24",
-                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/16",
-                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/32"
-                                },
-                                "displayName": "Keshara waidyarathna",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "comment": "fix the bug",
-                            "created": "2025-06-17T12:27:30.691+0400",
-                            "updated": "2025-06-17T12:27:30.691+0400",
-                            "started": "2025-06-17T13:30:00.000+0400",
-                            "timeSpent": "30m",
-                            "timeSpentSeconds": 1800,
-                            "id": "88502",
-                            "issueId": "107531"
-                        }
-                    ]
-                },
-                "assignee": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aed49adf6-16ea-4ee2-a616-1713b5511ca7",
-                    "accountId": "712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7",
-                    "avatarUrls": {
-                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/48",
-                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/24",
-                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/16",
-                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/32"
-                    },
-                    "displayName": "Keshara waidyarathna",
-                    "active": true,
-                    "timeZone": "Asia/Dubai",
-                    "accountType": "atlassian"
-                },
-                "statusCategory": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/2",
-                    "id": 2,
-                    "key": "new",
-                    "colorName": "blue-gray",
-                    "name": "To Do"
-                }
-            }
-        },
-        {
-            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
-            "id": "107567",
-            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/107567",
-            "key": "OBPP-4597",
-            "fields": {
-                "summary": "Preprod - Unexpected Column behavior occurs in Navigator page",
-                "timespent": 7200,
-                "timeoriginalestimate": 7200,
-                "assignee": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                    "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                    "avatarUrls": {
-                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
-                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
-                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
-                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
-                    },
-                    "displayName": "Kavinda Nishan Jayaweera",
-                    "active": true,
-                    "timeZone": "Asia/Dubai",
-                    "accountType": "atlassian"
-                },
-                "worklog": {
-                    "startAt": 0,
-                    "maxResults": 20,
-                    "total": 1,
-                    "worklogs": [
-                        {
-                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107567/worklog/88643",
-                            "author": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "avatarUrls": {
-                                    "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
-                                },
-                                "displayName": "Madushan Wijesuriya",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "updateAuthor": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "avatarUrls": {
-                                    "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
-                                },
-                                "displayName": "Madushan Wijesuriya",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "comment": "Reason - json properies have not configured correctly in the assert json. \n\nSolution - set default and selected props true and truncate user column selection table in QA",
-                            "created": "2025-06-17T20:26:18.337+0400",
-                            "updated": "2025-06-18T08:49:59.969+0400",
-                            "started": "2025-06-17T00:00:00.000+0400",
-                            "timeSpent": "2h",
-                            "timeSpentSeconds": 7200,
-                            "id": "88643",
-                            "issueId": "107567"
-                        }
-                    ]
-                },
-                "statusCategory": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/4",
-                    "id": 4,
-                    "key": "indeterminate",
-                    "colorName": "yellow",
-                    "name": "In Progress"
-                }
-            }
-        },
-        {
-            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
-            "id": "107484",
-            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/107484",
-            "key": "OBPP-4588",
-            "fields": {
-                "summary": "Preprod - Designer ID allows creation with <5 characters but fails during filter – inconsistent validation",
-                "timespent": null,
-                "timeoriginalestimate": 7200,
-                "worklog": {
-                    "startAt": 0,
-                    "maxResults": 20,
-                    "total": 0,
-                    "worklogs": []
-                },
-                "assignee": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aed49adf6-16ea-4ee2-a616-1713b5511ca7",
-                    "accountId": "712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7",
-                    "avatarUrls": {
-                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/48",
-                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/24",
-                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/16",
-                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/32"
-                    },
-                    "displayName": "Keshara waidyarathna",
-                    "active": true,
-                    "timeZone": "Asia/Dubai",
-                    "accountType": "atlassian"
-                },
-                "statusCategory": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/2",
-                    "id": 2,
-                    "key": "new",
-                    "colorName": "blue-gray",
-                    "name": "To Do"
-                }
-            }
-        },
-        {
-            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
-            "id": "107503",
-            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/107503",
-            "key": "OBPP-4589",
-            "fields": {
-                "summary": "Preprod - Unexpected UI issues occurring (Duplicate eye icon)",
-                "timespent": 7200,
-                "timeoriginalestimate": 3600,
-                "worklog": {
-                    "startAt": 0,
-                    "maxResults": 20,
-                    "total": 2,
-                    "worklogs": [
-                        {
-                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107503/worklog/88450",
-                            "author": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aed49adf6-16ea-4ee2-a616-1713b5511ca7",
-                                "accountId": "712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7",
-                                "avatarUrls": {
-                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/48",
-                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/24",
-                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/16",
-                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/32"
-                                },
-                                "displayName": "Keshara waidyarathna",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "updateAuthor": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aed49adf6-16ea-4ee2-a616-1713b5511ca7",
-                                "accountId": "712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7",
-                                "avatarUrls": {
-                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/48",
-                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/24",
-                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/16",
-                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/32"
-                                },
-                                "displayName": "Keshara waidyarathna",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "comment": "DSM",
-                            "created": "2025-06-17T09:38:47.516+0400",
-                            "updated": "2025-06-17T09:38:47.516+0400",
-                            "started": "2025-06-17T09:30:00.000+0400",
-                            "timeSpent": "1h",
-                            "timeSpentSeconds": 3600,
-                            "id": "88450",
-                            "issueId": "107503"
-                        },
-                        {
-                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107503/worklog/88466",
-                            "author": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aed49adf6-16ea-4ee2-a616-1713b5511ca7",
-                                "accountId": "712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7",
-                                "avatarUrls": {
-                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/48",
-                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/24",
-                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/16",
-                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/32"
-                                },
-                                "displayName": "Keshara waidyarathna",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "updateAuthor": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aed49adf6-16ea-4ee2-a616-1713b5511ca7",
-                                "accountId": "712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7",
-                                "avatarUrls": {
-                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/48",
-                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/24",
-                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/16",
-                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/32"
-                                },
-                                "displayName": "Keshara waidyarathna",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "comment": "fix the bug",
-                            "created": "2025-06-17T10:45:01.078+0400",
-                            "updated": "2025-06-17T10:45:01.078+0400",
-                            "started": "2025-06-17T10:30:00.000+0400",
-                            "timeSpent": "1h",
-                            "timeSpentSeconds": 3600,
-                            "id": "88466",
-                            "issueId": "107503"
-                        }
-                    ]
-                },
-                "assignee": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Aed49adf6-16ea-4ee2-a616-1713b5511ca7",
-                    "accountId": "712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7",
-                    "avatarUrls": {
-                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/48",
-                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/24",
-                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/16",
-                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:ed49adf6-16ea-4ee2-a616-1713b5511ca7/bad37876-9a1d-457d-80f2-638087b713ef/32"
-                    },
-                    "displayName": "Keshara waidyarathna",
-                    "active": true,
-                    "timeZone": "Asia/Dubai",
-                    "accountType": "atlassian"
-                },
-                "statusCategory": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/2",
-                    "id": 2,
-                    "key": "new",
-                    "colorName": "blue-gray",
-                    "name": "To Do"
                 }
             }
         },
@@ -13280,228 +13123,58 @@
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
-            "id": "106261",
-            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/106261",
-            "key": "OBPP-4560",
+            "id": "106252",
+            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/106252",
+            "key": "OBPP-4555",
             "fields": {
-                "summary": "Dropdown feature not implemented or not working properly on some pages ",
-                "timespent": 10800,
-                "timeoriginalestimate": 7200,
-                "worklog": {
-                    "startAt": 0,
-                    "maxResults": 20,
-                    "total": 3,
-                    "worklogs": [
-                        {
-                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/106261/worklog/87714",
-                            "author": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "avatarUrls": {
-                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
-                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
-                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
-                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
-                                },
-                                "displayName": "Kavinda Nishan Jayaweera",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "updateAuthor": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "avatarUrls": {
-                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
-                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
-                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
-                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
-                                },
-                                "displayName": "Kavinda Nishan Jayaweera",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "comment": "# Root cause analysis \n# Bug tracking and Managing",
-                            "created": "2025-06-12T09:30:58.646+0400",
-                            "updated": "2025-06-12T09:30:58.646+0400",
-                            "started": "2025-06-12T08:35:32.973+0400",
-                            "timeSpent": "55m",
-                            "timeSpentSeconds": 3300,
-                            "id": "87714",
-                            "issueId": "106261"
-                        },
-                        {
-                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/106261/worklog/88228",
-                            "author": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
-                                "accountId": "6389c69ef6c85b343c0c1d53",
-                                "avatarUrls": {
-                                    "48x48": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
-                                    "24x24": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
-                                    "16x16": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
-                                    "32x32": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png"
-                                },
-                                "displayName": "Supun Thilakarathne",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "updateAuthor": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
-                                "accountId": "6389c69ef6c85b343c0c1d53",
-                                "avatarUrls": {
-                                    "48x48": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
-                                    "24x24": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
-                                    "16x16": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
-                                    "32x32": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png"
-                                },
-                                "displayName": "Supun Thilakarathne",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "comment": "Added changes to company create and edit and also check implementation to calendar, it will need to address from the form builder end",
-                            "created": "2025-06-16T11:46:20.637+0400",
-                            "updated": "2025-06-16T11:46:47.698+0400",
-                            "started": "2025-06-12T11:30:00.000+0400",
-                            "timeSpent": "2h",
-                            "timeSpentSeconds": 7200,
-                            "id": "88228",
-                            "issueId": "106261"
-                        },
-                        {
-                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/106261/worklog/88602",
-                            "author": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "avatarUrls": {
-                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
-                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
-                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
-                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
-                                },
-                                "displayName": "Kavinda Nishan Jayaweera",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "updateAuthor": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "avatarUrls": {
-                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
-                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
-                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
-                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
-                                },
-                                "displayName": "Kavinda Nishan Jayaweera",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "created": "2025-06-17T17:52:30.224+0400",
-                            "updated": "2025-06-17T17:52:30.224+0400",
-                            "started": "2025-06-17T17:47:26.958+0400",
-                            "timeSpent": "5m",
-                            "timeSpentSeconds": 300,
-                            "id": "88602",
-                            "issueId": "106261"
-                        }
-                    ]
-                },
-                "assignee": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
-                    "accountId": "6389c69ef6c85b343c0c1d53",
-                    "avatarUrls": {
-                        "48x48": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
-                        "24x24": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
-                        "16x16": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
-                        "32x32": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png"
-                    },
-                    "displayName": "Supun Thilakarathne",
-                    "active": true,
-                    "timeZone": "Asia/Dubai",
-                    "accountType": "atlassian"
-                },
-                "statusCategory": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/2",
-                    "id": 2,
-                    "key": "new",
-                    "colorName": "blue-gray",
-                    "name": "To Do"
-                }
-            }
-        },
-        {
-            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
-            "id": "107235",
-            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/107235",
-            "key": "OBPP-4574",
-            "fields": {
-                "summary": "Missing clear/reset option in the dropdown component.",
-                "timespent": 11400,
-                "timeoriginalestimate": null,
-                "assignee": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
-                    "accountId": "6389c69ef6c85b343c0c1d53",
-                    "avatarUrls": {
-                        "48x48": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
-                        "24x24": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
-                        "16x16": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
-                        "32x32": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png"
-                    },
-                    "displayName": "Supun Thilakarathne",
-                    "active": true,
-                    "timeZone": "Asia/Dubai",
-                    "accountType": "atlassian"
-                },
+                "summary": "Test Execution",
+                "timespent": 22140,
+                "timeoriginalestimate": 43200,
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
                     "total": 2,
                     "worklogs": [
                         {
-                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107235/worklog/88231",
+                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/106252/worklog/87848",
                             "author": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
-                                "accountId": "6389c69ef6c85b343c0c1d53",
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
+                                "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
                                 "avatarUrls": {
-                                    "48x48": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
-                                    "24x24": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
-                                    "16x16": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
-                                    "32x32": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png"
+                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
+                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
+                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
+                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
                                 },
-                                "displayName": "Supun Thilakarathne",
+                                "displayName": "Kavinda Nishan Jayaweera",
                                 "active": true,
                                 "timeZone": "Asia/Dubai",
                                 "accountType": "atlassian"
                             },
                             "updateAuthor": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
-                                "accountId": "6389c69ef6c85b343c0c1d53",
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
+                                "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
                                 "avatarUrls": {
-                                    "48x48": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
-                                    "24x24": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
-                                    "16x16": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
-                                    "32x32": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png"
+                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
+                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
+                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
+                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
                                 },
-                                "displayName": "Supun Thilakarathne",
+                                "displayName": "Kavinda Nishan Jayaweera",
                                 "active": true,
                                 "timeZone": "Asia/Dubai",
                                 "accountType": "atlassian"
                             },
-                            "comment": "Added selected item search functionality dropdown, Now if selected it will appear in the search input and if not needed user need to clear",
-                            "created": "2025-06-16T11:59:57.101+0400",
-                            "updated": "2025-06-16T11:59:57.101+0400",
-                            "started": "2025-06-16T10:00:00.000+0400",
-                            "timeSpent": "3h",
-                            "timeSpentSeconds": 10800,
-                            "id": "88231",
-                            "issueId": "107235"
+                            "created": "2025-06-12T17:55:12.322+0400",
+                            "updated": "2025-06-12T17:55:12.322+0400",
+                            "started": "2025-06-12T13:46:06.315+0400",
+                            "timeSpent": "4h 9m",
+                            "timeSpentSeconds": 14940,
+                            "id": "87848",
+                            "issueId": "106252"
                         },
                         {
-                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107235/worklog/88601",
+                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/106252/worklog/88606",
                             "author": {
                                 "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
                                 "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
@@ -13530,22 +13203,152 @@
                                 "timeZone": "Asia/Dubai",
                                 "accountType": "atlassian"
                             },
-                            "created": "2025-06-17T17:49:37.513+0400",
-                            "updated": "2025-06-17T17:49:37.513+0400",
-                            "started": "2025-06-17T17:39:31.871+0400",
-                            "timeSpent": "10m",
-                            "timeSpentSeconds": 600,
-                            "id": "88601",
-                            "issueId": "107235"
+                            "created": "2025-06-17T18:00:28.075+0400",
+                            "updated": "2025-06-17T18:00:28.075+0400",
+                            "started": "2025-06-17T16:00:23.941+0400",
+                            "timeSpent": "2h",
+                            "timeSpentSeconds": 7200,
+                            "id": "88606",
+                            "issueId": "106252"
                         }
                     ]
                 },
+                "assignee": {
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
+                    "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
+                    },
+                    "displayName": "Kavinda Nishan Jayaweera",
+                    "active": true,
+                    "timeZone": "Asia/Dubai",
+                    "accountType": "atlassian"
+                },
                 "statusCategory": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/2",
-                    "id": 2,
-                    "key": "new",
-                    "colorName": "blue-gray",
-                    "name": "To Do"
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/4",
+                    "id": 4,
+                    "key": "indeterminate",
+                    "colorName": "yellow",
+                    "name": "In Progress"
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "108111",
+            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/108111",
+            "key": "OBPP-4612",
+            "fields": {
+                "summary": "Preprod - Company - Unexpected checkbox appears in dropdown other than the standard dropdown – Default Selling Terms ",
+                "timespent": 3600,
+                "timeoriginalestimate": 900,
+                "worklog": {
+                    "startAt": 0,
+                    "maxResults": 20,
+                    "total": 2,
+                    "worklogs": [
+                        {
+                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/108111/worklog/88800",
+                            "author": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
+                                "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
+                                "avatarUrls": {
+                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
+                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
+                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
+                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
+                                },
+                                "displayName": "Kavinda Nishan Jayaweera",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "updateAuthor": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
+                                "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
+                                "avatarUrls": {
+                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
+                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
+                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
+                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
+                                },
+                                "displayName": "Kavinda Nishan Jayaweera",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "created": "2025-06-18T16:31:36.263+0400",
+                            "updated": "2025-06-18T16:31:36.263+0400",
+                            "started": "2025-06-18T16:16:32.977+0400",
+                            "timeSpent": "15m",
+                            "timeSpentSeconds": 900,
+                            "id": "88800",
+                            "issueId": "108111"
+                        },
+                        {
+                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/108111/worklog/88847",
+                            "author": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
+                                "accountId": "6389c69ef6c85b343c0c1d53",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png"
+                                },
+                                "displayName": "Supun Thilakarathne",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "updateAuthor": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=6389c69ef6c85b343c0c1d53",
+                                "accountId": "6389c69ef6c85b343c0c1d53",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/5421da96ca1f7f0cf498e0d897367cc3?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FST-6.png"
+                                },
+                                "displayName": "Supun Thilakarathne",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "comment": "Merge with invalid commit and identify the fix and done quick release with Gayas",
+                            "created": "2025-06-18T18:59:03.594+0400",
+                            "updated": "2025-06-18T18:59:03.594+0400",
+                            "started": "2025-06-18T17:30:00.000+0400",
+                            "timeSpent": "45m",
+                            "timeSpentSeconds": 2700,
+                            "id": "88847",
+                            "issueId": "108111"
+                        }
+                    ]
+                },
+                "assignee": {
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
+                    "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
+                    },
+                    "displayName": "Kavinda Nishan Jayaweera",
+                    "active": true,
+                    "timeZone": "Asia/Dubai",
+                    "accountType": "atlassian"
+                },
+                "statusCategory": {
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/4",
+                    "id": 4,
+                    "key": "indeterminate",
+                    "colorName": "yellow",
+                    "name": "In Progress"
                 }
             }
         },
@@ -15545,321 +15348,11 @@
                     "accountType": "atlassian"
                 },
                 "statusCategory": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/2",
-                    "id": 2,
-                    "key": "new",
-                    "colorName": "blue-gray",
-                    "name": "To Do"
-                }
-            }
-        },
-        {
-            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
-            "id": "98420",
-            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/98420",
-            "key": "OBPP-4035",
-            "fields": {
-                "summary": "User onboarding process not working",
-                "timespent": 10800,
-                "timeoriginalestimate": null,
-                "assignee": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                    "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                    "avatarUrls": {
-                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
-                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
-                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
-                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
-                    },
-                    "displayName": "Kavinda Nishan Jayaweera",
-                    "active": true,
-                    "timeZone": "Asia/Dubai",
-                    "accountType": "atlassian"
-                },
-                "worklog": {
-                    "startAt": 0,
-                    "maxResults": 20,
-                    "total": 4,
-                    "worklogs": [
-                        {
-                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/98420/worklog/83526",
-                            "author": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "avatarUrls": {
-                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
-                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
-                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
-                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
-                                },
-                                "displayName": "Kavinda Nishan Jayaweera",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "updateAuthor": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "avatarUrls": {
-                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
-                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
-                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
-                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
-                                },
-                                "displayName": "Kavinda Nishan Jayaweera",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "created": "2025-05-16T00:00:21.972+0400",
-                            "updated": "2025-05-16T00:00:21.972+0400",
-                            "started": "2025-05-15T23:00:12.538+0400",
-                            "timeSpent": "1h",
-                            "timeSpentSeconds": 3600,
-                            "id": "83526",
-                            "issueId": "98420"
-                        },
-                        {
-                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/98420/worklog/83634",
-                            "author": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "avatarUrls": {
-                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
-                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
-                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
-                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
-                                },
-                                "displayName": "Kavinda Nishan Jayaweera",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "updateAuthor": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "avatarUrls": {
-                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
-                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
-                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
-                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
-                                },
-                                "displayName": "Kavinda Nishan Jayaweera",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "comment": "On hold the issue due to refactoring tasks",
-                            "created": "2025-05-16T11:40:27.014+0400",
-                            "updated": "2025-05-16T11:40:27.014+0400",
-                            "started": "2025-05-16T11:34:56.190+0400",
-                            "timeSpent": "5m",
-                            "timeSpentSeconds": 300,
-                            "id": "83634",
-                            "issueId": "98420"
-                        },
-                        {
-                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/98420/worklog/84573",
-                            "author": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "avatarUrls": {
-                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
-                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
-                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
-                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
-                                },
-                                "displayName": "Kavinda Nishan Jayaweera",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "updateAuthor": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "avatarUrls": {
-                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
-                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
-                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
-                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
-                                },
-                                "displayName": "Kavinda Nishan Jayaweera",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "comment": "Tested user account onboarding process (Not tenant)",
-                            "created": "2025-05-22T10:31:19.848+0400",
-                            "updated": "2025-05-22T10:31:19.848+0400",
-                            "started": "2025-05-22T09:35:52.646+0400",
-                            "timeSpent": "55m",
-                            "timeSpentSeconds": 3300,
-                            "id": "84573",
-                            "issueId": "98420"
-                        },
-                        {
-                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/98420/worklog/85161",
-                            "author": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "avatarUrls": {
-                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
-                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
-                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
-                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
-                                },
-                                "displayName": "Kavinda Nishan Jayaweera",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "updateAuthor": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                                "avatarUrls": {
-                                    "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
-                                    "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
-                                    "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
-                                    "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
-                                },
-                                "displayName": "Kavinda Nishan Jayaweera",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "created": "2025-05-26T17:23:22.208+0400",
-                            "updated": "2025-05-26T17:23:22.208+0400",
-                            "started": "2025-05-26T16:23:17.637+0400",
-                            "timeSpent": "1h",
-                            "timeSpentSeconds": 3600,
-                            "id": "85161",
-                            "issueId": "98420"
-                        }
-                    ]
-                },
-                "statusCategory": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/2",
-                    "id": 2,
-                    "key": "new",
-                    "colorName": "blue-gray",
-                    "name": "To Do"
-                }
-            }
-        },
-        {
-            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
-            "id": "107295",
-            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/107295",
-            "key": "OBPP-4580",
-            "fields": {
-                "summary": "User onboard progress bar issue",
-                "timespent": 14400,
-                "timeoriginalestimate": 14400,
-                "assignee": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                    "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
-                    "avatarUrls": {
-                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
-                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
-                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
-                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
-                    },
-                    "displayName": "Kavinda Nishan Jayaweera",
-                    "active": true,
-                    "timeZone": "Asia/Dubai",
-                    "accountType": "atlassian"
-                },
-                "worklog": {
-                    "startAt": 0,
-                    "maxResults": 20,
-                    "total": 2,
-                    "worklogs": [
-                        {
-                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107295/worklog/88682",
-                            "author": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "avatarUrls": {
-                                    "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
-                                },
-                                "displayName": "Madushan Wijesuriya",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "updateAuthor": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "avatarUrls": {
-                                    "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
-                                },
-                                "displayName": "Madushan Wijesuriya",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "comment": "Investigate the issue",
-                            "created": "2025-06-18T07:55:17.587+0400",
-                            "updated": "2025-06-18T07:55:17.587+0400",
-                            "started": "2025-06-13T14:00:00.000+0400",
-                            "timeSpent": "2h",
-                            "timeSpentSeconds": 7200,
-                            "id": "88682",
-                            "issueId": "107295"
-                        },
-                        {
-                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107295/worklog/88267",
-                            "author": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "avatarUrls": {
-                                    "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
-                                },
-                                "displayName": "Madushan Wijesuriya",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "updateAuthor": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "avatarUrls": {
-                                    "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
-                                },
-                                "displayName": "Madushan Wijesuriya",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "comment": "user on board pre loader component execution sequence was wrong, make it correct ",
-                            "created": "2025-06-16T13:08:40.167+0400",
-                            "updated": "2025-06-18T07:54:35.865+0400",
-                            "started": "2025-06-16T09:00:00.000+0400",
-                            "timeSpent": "2h",
-                            "timeSpentSeconds": 7200,
-                            "id": "88267",
-                            "issueId": "107295"
-                        }
-                    ]
-                },
-                "statusCategory": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/2",
-                    "id": 2,
-                    "key": "new",
-                    "colorName": "blue-gray",
-                    "name": "To Do"
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/1",
+                    "id": 1,
+                    "key": "undefined",
+                    "colorName": "medium-gray",
+                    "name": "No Category"
                 }
             }
         },
@@ -15941,129 +15434,12 @@
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
-            "id": "107735",
-            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/107735",
-            "key": "OBPP-4601",
-            "fields": {
-                "summary": "Menus not loading for Newly created Super Admin Accounts",
-                "timespent": 9900,
-                "timeoriginalestimate": 7200,
-                "assignee": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
-                    "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
-                    "avatarUrls": {
-                        "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                        "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                        "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                        "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
-                    },
-                    "displayName": "Madushan Wijesuriya",
-                    "active": true,
-                    "timeZone": "Asia/Dubai",
-                    "accountType": "atlassian"
-                },
-                "worklog": {
-                    "startAt": 0,
-                    "maxResults": 20,
-                    "total": 2,
-                    "worklogs": [
-                        {
-                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107735/worklog/88641",
-                            "author": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "avatarUrls": {
-                                    "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
-                                },
-                                "displayName": "Madushan Wijesuriya",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "updateAuthor": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "avatarUrls": {
-                                    "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
-                                },
-                                "displayName": "Madushan Wijesuriya",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "comment": "Reason - Route permission request company parameter has not been pass correctly.\n\nSolution - Change the logic inside app component",
-                            "created": "2025-06-17T20:24:05.662+0400",
-                            "updated": "2025-06-17T20:24:05.662+0400",
-                            "started": "2025-06-17T16:00:00.000+0400",
-                            "timeSpent": "2h",
-                            "timeSpentSeconds": 7200,
-                            "id": "88641",
-                            "issueId": "107735"
-                        },
-                        {
-                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107735/worklog/88707",
-                            "author": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "avatarUrls": {
-                                    "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
-                                },
-                                "displayName": "Madushan Wijesuriya",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "updateAuthor": {
-                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
-                                "avatarUrls": {
-                                    "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
-                                    "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
-                                },
-                                "displayName": "Madushan Wijesuriya",
-                                "active": true,
-                                "timeZone": "Asia/Dubai",
-                                "accountType": "atlassian"
-                            },
-                            "comment": "verified the change with Amindu",
-                            "created": "2025-06-18T09:03:48.004+0400",
-                            "updated": "2025-06-18T09:03:48.004+0400",
-                            "started": "2025-06-18T09:00:00.000+0400",
-                            "timeSpent": "45m",
-                            "timeSpentSeconds": 2700,
-                            "id": "88707",
-                            "issueId": "107735"
-                        }
-                    ]
-                },
-                "statusCategory": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/2",
-                    "id": 2,
-                    "key": "new",
-                    "colorName": "blue-gray",
-                    "name": "To Do"
-                }
-            }
-        },
-        {
-            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
             "id": "107822",
             "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/107822",
             "key": "OBPP-4604",
             "fields": {
                 "summary": "Prepod: Able to delete a company that is already assigned to users and roles",
-                "timespent": 6300,
+                "timespent": 11700,
                 "timeoriginalestimate": null,
                 "assignee": {
                     "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
@@ -16082,7 +15458,7 @@
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
-                    "total": 2,
+                    "total": 4,
                     "worklogs": [
                         {
                             "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107822/worklog/88709",
@@ -16124,6 +15500,45 @@
                             "issueId": "107822"
                         },
                         {
+                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107822/worklog/88751",
+                            "author": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
+                                "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
+                                },
+                                "displayName": "Madushan Wijesuriya",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "updateAuthor": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
+                                "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
+                                },
+                                "displayName": "Madushan Wijesuriya",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "comment": "Call with Jumaan regarding intergration token generation for UAT",
+                            "created": "2025-06-18T13:26:45.843+0400",
+                            "updated": "2025-06-18T13:26:45.843+0400",
+                            "started": "2025-06-18T12:24:00.000+0400",
+                            "timeSpent": "30m",
+                            "timeSpentSeconds": 1800,
+                            "id": "88751",
+                            "issueId": "107822"
+                        },
+                        {
                             "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107822/worklog/88718",
                             "author": {
                                 "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
@@ -16161,50 +15576,142 @@
                             "timeSpentSeconds": 2700,
                             "id": "88718",
                             "issueId": "107822"
+                        },
+                        {
+                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107822/worklog/88740",
+                            "author": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
+                                "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
+                                },
+                                "displayName": "Madushan Wijesuriya",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "updateAuthor": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Adbdfdbce-04ba-46ab-bd55-27519f57d228",
+                                "accountId": "712020:dbdfdbce-04ba-46ab-bd55-27519f57d228",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/af8e6f3f26b82c0cdf17f839a4c68d70?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMW-4.png"
+                                },
+                                "displayName": "Madushan Wijesuriya",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "comment": "Elastic search demo meeting",
+                            "created": "2025-06-18T12:25:17.287+0400",
+                            "updated": "2025-06-18T12:25:17.287+0400",
+                            "started": "2025-06-18T23:28:00.000+0400",
+                            "timeSpent": "1h",
+                            "timeSpentSeconds": 3600,
+                            "id": "88740",
+                            "issueId": "107822"
                         }
                     ]
                 },
                 "statusCategory": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/4",
-                    "id": 4,
-                    "key": "indeterminate",
-                    "colorName": "yellow",
-                    "name": "In Progress"
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/1",
+                    "id": 1,
+                    "key": "undefined",
+                    "colorName": "medium-gray",
+                    "name": "No Category"
                 }
             }
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
-            "id": "107881",
-            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/107881",
-            "key": "OBPP-4605",
+            "id": "107966",
+            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/107966",
+            "key": "OBPP-4608",
             "fields": {
-                "summary": "Prepod: Internal server error with unclear red tag in Segment module",
-                "timespent": null,
-                "timeoriginalestimate": null,
-                "assignee": null,
+                "summary": "Preprod - Unexpected Column behavior occurs in Navigator pages",
+                "timespent": 7200,
+                "timeoriginalestimate": 28800,
+                "assignee": {
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A021a07f0-0bc4-4fab-94c5-fab203e1a024",
+                    "accountId": "712020:021a07f0-0bc4-4fab-94c5-fab203e1a024",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:021a07f0-0bc4-4fab-94c5-fab203e1a024/eab41d01-6bcd-45ed-aba7-1b80191118a5/32"
+                    },
+                    "displayName": "Kavinda Nishan Jayaweera",
+                    "active": true,
+                    "timeZone": "Asia/Dubai",
+                    "accountType": "atlassian"
+                },
                 "worklog": {
                     "startAt": 0,
                     "maxResults": 20,
-                    "total": 0,
-                    "worklogs": []
+                    "total": 1,
+                    "worklogs": [
+                        {
+                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/107966/worklog/88762",
+                            "author": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=636c8715c383ad842146a6d2",
+                                "accountId": "636c8715c383ad842146a6d2",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/4cc16874d167fc99c34cb20d14886f0d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/4cc16874d167fc99c34cb20d14886f0d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/4cc16874d167fc99c34cb20d14886f0d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/4cc16874d167fc99c34cb20d14886f0d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png"
+                                },
+                                "displayName": "Muhammadh Nusky",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "updateAuthor": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=636c8715c383ad842146a6d2",
+                                "accountId": "636c8715c383ad842146a6d2",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/4cc16874d167fc99c34cb20d14886f0d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/4cc16874d167fc99c34cb20d14886f0d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/4cc16874d167fc99c34cb20d14886f0d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/4cc16874d167fc99c34cb20d14886f0d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMN-2.png"
+                                },
+                                "displayName": "Muhammadh Nusky",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "comment": "filter added to \n\nNavigation list page",
+                            "created": "2025-06-18T14:06:34.838+0400",
+                            "updated": "2025-06-18T14:07:15.761+0400",
+                            "started": "2025-06-18T12:06:17.614+0400",
+                            "timeSpent": "2h",
+                            "timeSpentSeconds": 7200,
+                            "id": "88762",
+                            "issueId": "107966"
+                        }
+                    ]
                 },
                 "statusCategory": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/2",
-                    "id": 2,
-                    "key": "new",
-                    "colorName": "blue-gray",
-                    "name": "To Do"
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/3",
+                    "id": 3,
+                    "key": "done",
+                    "colorName": "green",
+                    "name": "Done"
                 }
             }
         },
         {
             "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
-            "id": "107883",
-            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/107883",
-            "key": "OBPP-4607",
+            "id": "108062",
+            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/108062",
+            "key": "OBPP-4610",
             "fields": {
-                "summary": "Company dropdown data and Company page data mismatch available",
+                "summary": "Design a bold report RDL file for the demo with current schema & implementation  ",
                 "timespent": null,
                 "timeoriginalestimate": null,
                 "worklog": {
@@ -16214,16 +15721,15 @@
                     "worklogs": []
                 },
                 "assignee": {
-                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=642a51e81993b61a5309aa75",
-                    "accountId": "642a51e81993b61a5309aa75",
-                    "emailAddress": "radhakrishnan.mayuran@osos.om",
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3A374f2de9-7887-4bef-806c-0065456d04a6",
+                    "accountId": "712020:374f2de9-7887-4bef-806c-0065456d04a6",
                     "avatarUrls": {
-                        "48x48": "https://secure.gravatar.com/avatar/f40d254cbc28801f73bca154f573659a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-3.png",
-                        "24x24": "https://secure.gravatar.com/avatar/f40d254cbc28801f73bca154f573659a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-3.png",
-                        "16x16": "https://secure.gravatar.com/avatar/f40d254cbc28801f73bca154f573659a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-3.png",
-                        "32x32": "https://secure.gravatar.com/avatar/f40d254cbc28801f73bca154f573659a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRM-3.png"
+                        "48x48": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
+                        "24x24": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
+                        "16x16": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png",
+                        "32x32": "https://secure.gravatar.com/avatar/991cb385c11b70f6428e73913bd0fd22?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-5.png"
                     },
-                    "displayName": "Radhakrishnan Mayuran",
+                    "displayName": "Amindu Samarasinghe",
                     "active": true,
                     "timeZone": "Asia/Dubai",
                     "accountType": "atlassian"
@@ -16234,6 +15740,84 @@
                     "key": "new",
                     "colorName": "blue-gray",
                     "name": "To Do"
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "108094",
+            "self": "https://gearsjira.atlassian.net/rest/agile/1.0/issue/108094",
+            "key": "OBPP-4611",
+            "fields": {
+                "summary": "MongoDB EF core implementation",
+                "timespent": 28800,
+                "timeoriginalestimate": 28800,
+                "worklog": {
+                    "startAt": 0,
+                    "maxResults": 20,
+                    "total": 1,
+                    "worklogs": [
+                        {
+                            "self": "https://gearsjira.atlassian.net/rest/api/2/issue/108094/worklog/88788",
+                            "author": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Ab1fadf55-b165-42c2-9c59-b87ba1bb13df",
+                                "accountId": "712020:b1fadf55-b165-42c2-9c59-b87ba1bb13df",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/8bce24a4f50c3108f945f9b269032f8e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHK-6.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/8bce24a4f50c3108f945f9b269032f8e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHK-6.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/8bce24a4f50c3108f945f9b269032f8e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHK-6.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/8bce24a4f50c3108f945f9b269032f8e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHK-6.png"
+                                },
+                                "displayName": "Heshan Kavinda",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "updateAuthor": {
+                                "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Ab1fadf55-b165-42c2-9c59-b87ba1bb13df",
+                                "accountId": "712020:b1fadf55-b165-42c2-9c59-b87ba1bb13df",
+                                "avatarUrls": {
+                                    "48x48": "https://secure.gravatar.com/avatar/8bce24a4f50c3108f945f9b269032f8e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHK-6.png",
+                                    "24x24": "https://secure.gravatar.com/avatar/8bce24a4f50c3108f945f9b269032f8e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHK-6.png",
+                                    "16x16": "https://secure.gravatar.com/avatar/8bce24a4f50c3108f945f9b269032f8e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHK-6.png",
+                                    "32x32": "https://secure.gravatar.com/avatar/8bce24a4f50c3108f945f9b269032f8e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHK-6.png"
+                                },
+                                "displayName": "Heshan Kavinda",
+                                "active": true,
+                                "timeZone": "Asia/Dubai",
+                                "accountType": "atlassian"
+                            },
+                            "comment": "* Investigated about the EF core’s new implmentation for Mongodb.\n* implemented a sample console app to access Mongodb through using EF core’s new features.\n* Had discussion with Fiqri regarding the implementation.",
+                            "created": "2025-06-18T16:03:29.713+0400",
+                            "updated": "2025-06-18T16:03:29.713+0400",
+                            "started": "2025-06-18T17:00:00.000+0400",
+                            "timeSpent": "1d",
+                            "timeSpentSeconds": 28800,
+                            "id": "88788",
+                            "issueId": "108094"
+                        }
+                    ]
+                },
+                "assignee": {
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/user?accountId=712020%3Ab1fadf55-b165-42c2-9c59-b87ba1bb13df",
+                    "accountId": "712020:b1fadf55-b165-42c2-9c59-b87ba1bb13df",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/8bce24a4f50c3108f945f9b269032f8e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHK-6.png",
+                        "24x24": "https://secure.gravatar.com/avatar/8bce24a4f50c3108f945f9b269032f8e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHK-6.png",
+                        "16x16": "https://secure.gravatar.com/avatar/8bce24a4f50c3108f945f9b269032f8e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHK-6.png",
+                        "32x32": "https://secure.gravatar.com/avatar/8bce24a4f50c3108f945f9b269032f8e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHK-6.png"
+                    },
+                    "displayName": "Heshan Kavinda",
+                    "active": true,
+                    "timeZone": "Asia/Dubai",
+                    "accountType": "atlassian"
+                },
+                "statusCategory": {
+                    "self": "https://gearsjira.atlassian.net/rest/api/2/statuscategory/4",
+                    "id": 4,
+                    "key": "indeterminate",
+                    "colorName": "yellow",
+                    "name": "In Progress"
                 }
             }
         }

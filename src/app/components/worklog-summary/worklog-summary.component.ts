@@ -42,7 +42,7 @@ interface DateViewWorklog {
 export class WorklogSummaryComponent implements OnInit {
   data = inject<DialogData>(MAT_DIALOG_DATA);
   toHhMmPipe = inject(ToHhMmPipe);
-  viewMode: 'issue' | 'date' = 'issue';
+  viewMode: 'issue' | 'date' = 'date';
   worklogsByDate = new Map<string, DateViewWorklog[]>();
 
   ngOnInit(): void {
@@ -116,7 +116,7 @@ export class WorklogSummaryComponent implements OnInit {
   }
 
   hasDailyIssues(worklogs: DateViewWorklog[]): boolean {
-    const totalTimeSpent = worklogs.reduce((acc, worklog) => acc + worklog.timespent, 0);
+    const totalTimeSpent = worklogs.reduce((acc, worklog) => acc + worklog.timeSpentSeconds, 0);
     return totalTimeSpent !== 8 * 60 * 60;
   }
 }

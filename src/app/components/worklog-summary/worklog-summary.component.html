@@ -1,8 +1,8 @@
 <h2 mat-dialog-title>{{ data.user }}</h2>
 <mat-dialog-content>
   <mat-button-toggle-group [(ngModel)]="viewMode" aria-label="View Mode" class="view-mode-toggle">
-    <mat-button-toggle value="issue">Issue View</mat-button-toggle>
     <mat-button-toggle value="date">Date View</mat-button-toggle>
+    <mat-button-toggle value="issue">Issue View</mat-button-toggle>
   </mat-button-toggle-group>
 
   @if (viewMode === 'issue') {
